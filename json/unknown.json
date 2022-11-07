@@ -7,7 +7,7 @@
         "type": "Mutant",
         "attribute": "Unknown",
         "special_Move": "\u30fb",
-        "profile": "Voracious Digimon may mutate into Burpmon when they eat more than they can handle. Once this form is achieved, no amount of food will satiate them, they come to dislike moving their body, and they will loaf around all day. A Burpmon will roll around in search of food, continuously eating. When it runs out of things to eat and gets hungry again, it will shove anything into its mouth. If one makes a conscious effort to watch its diet and tries to exercise, it can return to its previous form."
+        "profile": "Profile\nVoracious Digimon may mutate into Burpmon when they eat more than they can handle. Once this form is achieved, no amount of food will satiate them, they come to dislike moving their body, and they will loaf around all day. A Burpmon will roll around in search of food, continuously eating. When it runs out of things to eat and gets hungry again, it will shove anything into its mouth. If one makes a conscious effort to watch its diet and tries to exercise, it can return to its previous form."
     },
     {
         "name": "Calumon",
@@ -17,7 +17,7 @@
         "type": "Unknown",
         "attribute": "Unknown",
         "special_Move": "\u30fb",
-        "profile": "A small, enigmatic Digimon that, unlike other Digimon, will neither fight nor Digivolve. Calumon is friendly and loves to play, and appears out of nowhere when fun is afoot. It has a habit of adding \u201c-calu\u201d to the end of its sentences. Rumor has it that Calumon possesses the ability to help other Digimon to Digivolve."
+        "profile": "Profile\nA small, enigmatic Digimon that, unlike other Digimon, will neither fight nor Digivolve. Calumon is friendly and loves to play, and appears out of nowhere when fun is afoot. It has a habit of adding \u201c-calu\u201d to the end of its sentences. Rumor has it that Calumon possesses the ability to help other Digimon to Digivolve."
     },
     {
         "name": "NEO",
@@ -27,6 +27,6 @@
         "type": "Unknown",
         "attribute": "Unknown",
         "special_Move": "\u30fbJudgment\n\u30fbZero Genesis",
-        "profile": "A mysterious digital being that is Unanalyzable with existing technology. NEO cannot even be classified as a Digimon under the current framework, and further research is being actively pursued. Its defining characteristic is that it seems to possess every attribute of every Digimon in the Digital World (Dragon, Beast, Aquatic, Mechine/Mutant, Holy, Dark, Insectoid/Vegetation). The current theory, though tentative, is that NEO was used by the system that governs the Digital World as the base form (the Adam) of the next generation of Digimon. Despite its small frame, NEO possesses immeasurable power, such that even the greatest of Megas, the strongest beings in the Digital World, seem powerless by comparison. With Judgment, NEO can reduce every living thing nearby to nothingness, as if none of them had ever existed. Then it can use Zero Genesis to fill the void left by Judgment with entirely new beings. Thus it holds the power to create as well as destroy, giving it the potential to completely remake the Digital World."
+        "profile": "Profile\nA mysterious digital being that is Unanalyzable with existing technology. NEO cannot even be classified as a Digimon under the current framework, and further research is being actively pursued. Its defining characteristic is that it seems to possess every attribute of every Digimon in the Digital World (Dragon, Beast, Aquatic, Mechine/Mutant, Holy, Dark, Insectoid/Vegetation). The current theory, though tentative, is that NEO was used by the system that governs the Digital World as the base form (the Adam) of the next generation of Digimon. Despite its small frame, NEO possesses immeasurable power, such that even the greatest of Megas, the strongest beings in the Digital World, seem powerless by comparison. With Judgment, NEO can reduce every living thing nearby to nothingness, as if none of them had ever existed. Then it can use Zero Genesis to fill the void left by Judgment with entirely new beings. Thus it holds the power to create as well as destroy, giving it the potential to completely remake the Digital World."
     }
 ]
