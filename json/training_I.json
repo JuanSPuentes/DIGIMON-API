@@ -1,0 +1,442 @@
+[
+    {
+        "name": "Argomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=algomon_lv1",
+        "url_image": "https://digimon.net/cimages/digimon/algomon_lv1.jpg",
+        "level": "In-Training \u2160",
+        "type": "Mutant",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "An In-Training Digimon born from a bug in a calculation algorithm. Argomon tend to congregate in places where high-capacity data leaks out. They gather one at a time, forming a swarm that fully covers the place."
+    },
+    {
+        "name": "Bommon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=bommon",
+        "url_image": "https://digimon.net/cimages/digimon/bommon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbCrack-Crack-Crackle",
+        "profile": "A Slime Digimon with a bomb-shaped body. Bommon\u2019s fuse tail ignites the moment it is born from an egg, growing gradually shorter. No one knows what would happen if the fuse went out, since it always Digivolves before then. Short-tempered by nature, it is said that its fuse burns faster when it gets in a bad mood. The Crack-Crack-Crackle from the sparks of its fuse produces a harsh sound that surprises any foe suddenly confronted by it."
+    },
+    {
+        "name": "Bommon (2010 Anime Version)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=bombmon-xwars",
+        "url_image": "https://digimon.net/cimages/digimon/bombmon-xwars.jpg",
+        "level": "In-Training \u2160\n(Xros Wars)",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbBomberhead\n\u30fbFireworks Revolution",
+        "profile": "A temperamental Digimon that loses it at the slightest provocation. When upset, Bommon\u2019s topknot grows shorter and shorter, causing it to explode with anger when it reaches its head. Its special moves include Bomberhead, which bombards the opponent with shockwaves, and Fireworks Revolution, which scatters particles in a myriad of colors. Both of these moves are about as powerful as a firecracker. Because of their colorful beauty, however, these moves are sometimes enjoyed as party favors. Being provoked while it\u2019s trying to enjoy a party is a real pet peeve of Bommon."
+    },
+    {
+        "name": "Botamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=botamon",
+        "url_image": "https://digimon.net/cimages/digimon/botamon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "A newborn Digital Monster. Dark peach fuzz bristles across the surface of its slimy body. This new addition to the Digital World can\u2019t fight, but it can shoot bubbles from its mouth to intimidate foes."
+    },
+    {
+        "name": "Chibickmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=chibickmon",
+        "url_image": "https://digimon.net/cimages/digimon/chibickmon.jpg",
+        "level": "In-Training \u2160\n(Xros Wars)",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbChinchikurinrin\n\u30fbPetit Sugar Plum",
+        "profile": "A highly social Digimon that\u2019s always ready to give its all. Chibickmon loves to imitate others and lend a helping hand. If there\u2019s a task you\u2019re trying to accomplish, large numbers of them may suddenly show up out of nowhere to help you. Since they generally don\u2019t understand the purpose of any given task, however, what they consider helpful may be no more than a nuisance. To make matters worse, if you ignore them or hurt their feelings they\u2019re quick to burst into tears, only adding to the distraction. When dealing with Chibickmon, it\u2019s important to always be appreciative of their help, even if you really feel like they\u2019re getting in the way. Chibickmon\u2019s dream is to work so hard that it is accepted right away by a Starmons."
+    },
+    {
+        "name": "Chibomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=chicomon",
+        "url_image": "https://digimon.net/cimages/digimon/chicomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "A small, blue Dragon Digimon child. Chibomon may be small and powerless, but it possesses the ability to Digivolve into any Dragon Digimon. This is why the Digimon is valued highly by Tamers and Dragon Digimon researchers alike. Chibomon is cherished for its friendly and curious nature, which are unique characteristics of In-Training Digimon. It spits Acid Bubbles to attack just like other In-Training Digimon, but they\u2019re as devoid of power as one would expect."
+    },
+    {
+        "name": "Choromon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=choromon",
+        "url_image": "https://digimon.net/cimages/digimon/choromon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Machine",
+        "attribute": "",
+        "special_Move": "\u30fbJamming Powder",
+        "profile": "A super-small Machine Digimon with red eyes that act as photosensors. Choromon\u2019s constant restless movements make it seem very cute, but these are just reactions to bright light brought on by simple programming, meaning it will cease functioning in dark places. Electricity will lance off of the tip of its tail when it is in a good mood, for reasons that are unknown. It uses its move Jamming Powder to emit metal particles and temporarily confuse its enemy\u2019s AI. It then takes advantage of this temporary confusion to flee from the enemy."
+    },
+    {
+        "name": "Conomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=cocomon",
+        "url_image": "https://digimon.net/cimages/digimon/cocomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "Extremely rare Digimon born in pairs from a single Digi-Egg. Why Zerimon and Conomon are the only Digimon that can be born as twins is currently unknown. Even more confusingly, sometimes instead of being born with a twin of the same type, one Zerimon and one Conomon will hatch from the same Digi-Egg. Zerimon, with its single horn, tends to be highly energetic, while three-horned Conomon is generally more subdued. Like other In-Training Digimon, Conomon spits Acid Bubbles to threaten its enemies."
+    },
+    {
+        "name": "Cotsucomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=cotsucomon",
+        "url_image": "https://digimon.net/cimages/digimon/cotsucomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Armor",
+        "attribute": "",
+        "special_Move": "\u30fbKnock",
+        "profile": "A Digimon born wearing a leather hat. Though Cotsucomon may seem strong compared to other In-Training Digimon because of its armor, the soft leather doesn\u2019t actually provide much protection. Highly cautious by nature, Cotsucomon is quick to draw back into its hat. Its special move is Knock, which involves poking foes with the brim of its hat."
+    },
+    {
+        "name": "Curimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=curimon",
+        "url_image": "https://digimon.net/cimages/digimon/curimon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbFoam",
+        "profile": "An In-Training Digimon characterized by its single horn and the large frill extending from the top of its head. Curimon is a highly active Digimon, and will bounce around in its Digi-Egg before even being born. Once it hatches, it\u2019s always on the move, like a little ball of energy. Since its horn and its frill are still soft and undeveloped, it can\u2019t use them in battle, but they\u2019re still useful when it comes to maintaining its balance and helping it bounce back from crashing into things. If approached by an enemy, Curimon will bravely Foam at them in an attempt at intimidation."
+    },
+    {
+        "name": "Dodomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=dodomon",
+        "url_image": "https://digimon.net/cimages/digimon/dodomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbLittle Iron Beads",
+        "profile": "A Slime Digimon covered entirely in tough Mithril Hair. Dodomon demonstrates an aggressive nature from birth, and despite a lack of fangs, it likes to intimidate foes by snapping its gaping maw. Because of this behavior, they are often taken out by other Digimon, so this Digimon is quite rare. When an enemy approaches, Dodomon attacks by shooting Little Iron Beads from its mouth."
+    },
+    {
+        "name": "Dokimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=dokimon",
+        "url_image": "https://digimon.net/cimages/digimon/dokimon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbStatic Shock",
+        "profile": "A Slime Digimon born from human biological data. If you pick one up, you might be surprised to find its entire body vibrates at a steady rhythm. Even more surprising is that this rhythm matches the pulse of whoever is holding it. When threatened, Dokimon warns its foes to back off by charging the end of its horn with static electricity."
+    },
+    {
+        "name": "Fufumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=fufumon",
+        "url_image": "https://digimon.net/cimages/digimon/fufumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbLittle Iron Spikes",
+        "profile": "A Slime Digimon with a light body that floats in the air from birth. If attacked by a large enemy, Fufumon will intimidate them by thrusting with the horn on its head. Still, this horn is extremely soft, and causes no damage even if it stabs its foe. Its slow floating makes it an easy target, but it will attack by spitting out Little Iron Spikes when approached."
+    },
+    {
+        "name": "Jyarimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=jyarimon",
+        "url_image": "https://digimon.net/cimages/digimon/jyarimon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbHeated Bubbles",
+        "profile": "An extremely rare Digimon from a small population. There are precious few Dragon Digimon at the In-Training level, and it\u2019s said that most of their number either perish or are captured before they can fully develop. Though it might not look like it, Jyarimon\u2019s mouth is lined with tiny fangs, a sign that it will grow into a powerful dragon Digimon. Despite being weak, it seems drawn to anything larger than it, and this is another reason for its abysmally low survival rate. It attacks using Heated Bubbles, which it produces with its naturally high body heat."
+    },
+    {
+        "name": "Keemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=keemon",
+        "url_image": "https://digimon.net/cimages/digimon/keemon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbPush\u016b",
+        "profile": "A Slime Digimon with a perpetual glower that always seems to be glaring at something. Though quite young, Kiimon hates buddying up with others, and lives its life in hiding. It prefers poking its nose into the affairs of others from its hiding place, using Push\u016b to pester them with a paint-laden water cannon fired from its mouth."
+    },
+    {
+        "name": "Ketomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=ketomon",
+        "url_image": "https://digimon.net/cimages/digimon/ketomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbPoppin' Tear",
+        "profile": "A Slime Digimon known for its large eyes. Ketomon\u2019s eyes have the ability to discern a Digimon\u2019s nature, letting it detect brutal Digimon ahead of time and convey the danger to its comrades. When driven into a corner, it will use Poppin' Tears to discharge acidic bubbles, perturbing foes as it cries."
+    },
+    {
+        "name": "Kuramon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=kuramon",
+        "url_image": "https://digimon.net/cimages/digimon/kuramon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Unidentified",
+        "attribute": "",
+        "special_Move": "\u30fbGlare Eye",
+        "profile": "An Unidentified Digimon that suddenly appeared on a computer network. A single Digi-Egg was born from the malice of humans abusing computer networks and the aggression from conflicts unfolding over networks. The Digi-Egg was the amalgamation of humanity\u2019s destructive instincts, and the mysterious Digimon born from it is incredibly dangerous. It multiplies within a computer network like a virus, causing minor network failures. It uses its special move Glare Eye to produce a frothy substance from its giant eye."
+    },
+    {
+        "name": "Leafmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=leafmon",
+        "url_image": "https://digimon.net/cimages/digimon/leafmon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "A Slime Digimon with a breath of fresh verdure (a small leaf) on its tail. Leafmon has many elements of a plant, and its body contains chlorophyll, allowing it to grow through photosynthesis. It protects itself from harsh sunlight and rain with its leaf-shaped tail. Leafmon\u2019s pure nature prevents it from fearing or doubting the opponent. That being said, it has a bit of a shy side. This newborn Digimon cannot fight, but its innocent heart brimming with life force makes others recall pure feelings once forgotten, wrapping those around it in an air of tranquility. Still, if anyone messes with it too much, it will spit Acid Bubbles to threaten them."
+    },
+    {
+        "name": "Mokumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=mokumon",
+        "url_image": "https://digimon.net/cimages/digimon/mokumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbSmoke",
+        "profile": "A Digimon baby that wreathes its body in a smoke-like vapor. The DigiCore said to be the core of any Digimon is exposed in this special creature, which uses smoke to protect it. Since Mokumon\u2019s DigiCore is exposed, this Digimon has an odd way of living, with smoke obscuring its actual body. It will spread the smoke around its body in order to help it escape from enemies."
+    },
+    {
+        "name": "Nyokimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=nyokimon",
+        "url_image": "https://digimon.net/cimages/digimon/nyokimon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Seed",
+        "attribute": "",
+        "special_Move": "\u30fbSeed Cracker",
+        "profile": "A Seed Digimon whose body is covered in a layer of transparent tissue, under which a body akin to a variant of Botamon can be seen. Nyokimon is thought to be a grass version of the Botamon type. This means that it could Digivolve not just into a Vegetation Digimon, but possibly into a Dragon-species Digimon as well. It has a gentle personality, as well as a hint of timidity. Nyokimon lacks attack power, and uses Seed Cracker to surprise its enemies and run off in a hurry."
+    },
+    {
+        "name": "Pabumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=bubbmon",
+        "url_image": "https://digimon.net/cimages/digimon/bubbmon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAdhesive Bubble Blow",
+        "profile": "This bubble Digimon looks like a mere sea-green bubble at first glance, but it is actually a totally autonomous creature with a plethora of expressions. Pabumon\u2019s delicate surface means it has practically no defense or prowess in combat. It creates infinite tiny foam clones from the pacifier-like object in its mouth. This ability was originally used to develop computer viruses, but its lack of life force made for poor implementation. Life is fleeting for this adorable Digimon baby. The Adhesive Bubble Blow released from its body binds enemies, giving it a chance to escape."
+    },
+    {
+        "name": "Pafumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pafumon",
+        "url_image": "https://digimon.net/cimages/digimon/pafumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Spirit",
+        "attribute": "",
+        "special_Move": "\u30fbPuff Balloon",
+        "profile": "A spirit Digimon with a translucent body. Pafumon\u2019s body is downy and light, so it always drifts through the air. It tends to ride the wind to move, traveling quite a distance depending on which breeze it catches. This gentle soul has no love for conflict, but in a pinch Pafumon will use Puff Balloon, opening its mouth wide and sucking up air to inflate to triple its size. While the enemy is taken aback, it will seize the chance to escape by expelling this air."
+    },
+    {
+        "name": "Paomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=paomon",
+        "url_image": "https://digimon.net/cimages/digimon/paomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "Unlike other Digimon that developed naturally, this artificial Digimon was created by human hands to be raised and appreciated. Although there is no shortage of Digimon that have their composition programs redesigned by humans at the In-Training level, Paomon is a rare breed created artificially at the In-Training level. One theory claims that it was developed jointly by research groups in Shanghai, Taiwan and Okinawa, but its actual birthplace is unknown. Paomon spits Acid Bubbles to threaten foes."
+    },
+    {
+        "name": "Petitmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=petitmon",
+        "url_image": "https://digimon.net/cimages/digimon/petitmon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbHot Breath",
+        "profile": "A Slime Digimon with small wings and large horns. Petitmon\u2019s body is extremely light, and it constantly floats in mid-air, maintaining its posture with flapping wings and air blown from its mouth. Cheerful by nature, its mood will sour greatly if the three scales on its stomach are touched. When danger looms, Petitmon uses Hot Breath to surprise its opponent, simultaneously using the propulsion of this breath to flee quickly, and so capturing it is no mean feat."
+    },
+    {
+        "name": "Pichimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pitchmon",
+        "url_image": "https://digimon.net/cimages/digimon/pitchmon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbBubble Blow",
+        "profile": "A microbe-like Digimon discovered in the Net Ocean, the place studied as the birthplace of all life in the Digital World. Pichimon lives by emotion alone, moving about in an extremely hectic fashion. Full of curiosity, it longs to communicate with the outside world, but has yet to figure out how. Even so, this Digimon baby is cherished by all, and its big red eyes are charming enough to shake any enemy\u2019s resolve. It can spit soap-like bubbles from its mouth to blind the enemy, letting it escape."
+    },
+    {
+        "name": "Pipimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pipimon",
+        "url_image": "https://digimon.net/cimages/digimon/pipimon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fb",
+        "profile": "An In-Training Digimon born from the fruit of a large tree. When a human regains their lost hope, Pipimon is said to appear before them, ready to be their partner."
+    },
+    {
+        "name": "Popomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=popomon",
+        "url_image": "https://digimon.net/cimages/digimon/popomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbHair Mist",
+        "profile": "A Slime Digimon resembling a plant seed. Popomon makes good use of its leaf-like tail to move with short jumps. It is extremely timid, running away if strangers approach; that being said, it supposedly stays friendly for life once its guard is down. Popomon uses Hair Mist to run from foes, scattering the hair on its body as a smoke screen."
+    },
+    {
+        "name": "Poyomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=poyomon",
+        "url_image": "https://digimon.net/cimages/digimon/poyomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "This Digimon baby uses its translucent body to float along the Net Ocean like a jellyfish. Possessing the most primitive makeup of any discovered Digimon, it garners attention from Digital World anthropologists and Digimon fanatics alike. They hail it as a \u201cmissing link,\u201d potentially capable of unlocking the mystery behind Digimon. It uses Super Acid Bubbles to protect itself from foes."
+    },
+    {
+        "name": "Punimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=punimon",
+        "url_image": "https://digimon.net/cimages/digimon/punimon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "A brand new type of Digimon. Three protrusions grow from the top of its gelatinous, red body. It can\u2019t fight, but threatens enemies with Acidic bubbles."
+    },
+    {
+        "name": "Pupumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pupumon",
+        "url_image": "https://digimon.net/cimages/digimon/pupumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbPoison Bubbles",
+        "profile": "A Slime Digimon with gossamer wings sprouting from a light, bubble-like body. Pupumon\u2019s rather large eyeballs are very sensitive to the motion of objects, allowing it to flee at any sign of movement. Even so, it is no coward, and will fight back in the face of continued bullying. When enemies approach, it blows Poison Bubbles to attack."
+    },
+    {
+        "name": "Pururumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pururumon",
+        "url_image": "https://digimon.net/cimages/digimon/pururumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "A Slime Digimon with a chubby, silicon-like body that jiggles around when it wriggles forward. Pururumon\u2019s small fins are surprisingly dexterous, letting it scratch itchy spots on its body, but not allowing it to fly. It loves the smell of the sun, sprawling out on days with nice weather while sniffing the grass, immersed in a happy mood. When things get dicey, Pururumon will dribble out Acid Bubbles, covering the enemy and escaping in the interim."
+    },
+    {
+        "name": "Pusumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pusumon",
+        "url_image": "https://digimon.net/cimages/digimon/pusumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbPacifier",
+        "profile": "Pusumon is a Slime Digimon covered in fur as soft as cotton. Only the yellow hairs sticking out of its forehead are even somewhat hard. It gets anxious if it doesn\u2019t have its pacifier with it at all times, and will cry loudly and constantly if its binky ever goes missing. When threatened, Pusumon will take a deep breath to puff itself up, then blow out all that air to send its pacifier flying in an attempt to intimidate foes."
+    },
+    {
+        "name": "Puttimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=puttimon",
+        "url_image": "https://digimon.net/cimages/digimon/puttimon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Mini Angel",
+        "attribute": "",
+        "special_Move": "\u30fbAngel Dust",
+        "profile": "A holy Digimon baby that is the basic form of all Angel Digimon. Even so, Puttimon has trouble discerning between good and evil, often getting involved in cute mischief. More than anything, this Digimon is popular for bringing feelings of happiness and good fortune. Puttimon has a pair of wings sprouting from its back that it can use to fly\u2014quite rare for newborn Digimon. The mysterious particles known as Angel Dust that it spreads while flying put opponents in a happy mood."
+    },
+    {
+        "name": "Puwamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=puwamon",
+        "url_image": "https://digimon.net/cimages/digimon/puwamon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Baby Bird",
+        "attribute": "",
+        "special_Move": "\u30fbFluffy Feather",
+        "profile": "A Baby Bird Digimon covered in soft feathers. Puwamon has extremely keen eyesight and can survey a vast area, allowing it to react instantly to any movement in the vicinity. Inquisitive by nature, this Digimon lacks shyness and gets along easily with others, garnering it a degree of popularity. That being said, Puwamon absolutely despises having its tail touched. Be warned; doing so thoughtlessly will cause it to bathe the culprit in a blinding down known as Fluffy Feather."
+    },
+    {
+        "name": "Puyomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=puyomon",
+        "url_image": "https://digimon.net/cimages/digimon/puyomon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbStatic Cloud",
+        "profile": "A soft, sticky Slime Digimon found in the Net Ocean. Puyomon\u2019s single lens-like eye isn\u2019t very expressive, making it difficult to tell what it\u2019s thinking. It spends its time floating through the sea or the sky, reaching out with its tentacles in an attempt to latch onto nearby objects or Digimon. When it does get hold of something it will send out a jolt of electricity with Static Cloud, but rather than an attack, this seems to be Puyomon\u2019s way of communicating. When multiple Puyomon latch onto one another, their Static Clouds become more powerful, making the surrounding area hazardous."
+    },
+    {
+        "name": "Pyonmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pyonmon",
+        "url_image": "https://digimon.net/cimages/digimon/pyonmon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbEarwhip",
+        "profile": "Pyonmon is an In-Training Digimon with a single large ear and a body covered in soft fur. Shy and timid from birth, it\u2019s quick to hide its face whenever anyone looks it in the eye. Despite this, it\u2019s also quick to grow attached to others, and can often be seen actively cuddling up to Digimon it\u2019s taken a liking to. On the other hand, it has little patience for those it thinks might be a nuisance, and its special move Earwhip is surprisingly powerful, allowing it to send even Rookie Digimon packing as it smacks them with its large ear. Pyonmon also dislikes things that make loud noises, which cause it to lower its ear and run away."
+    },
+    {
+        "name": "Relemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=relemon",
+        "url_image": "https://digimon.net/cimages/digimon/relemon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbTransformation",
+        "profile": "A mystical Digimon said to be born only on moonlit nights. A Relemon born under the full moon is said to receive its magic power, and will grow into a Digimon with above-average abilities that can use mysterious arts. A nocturnal creature, its shy personality prevents it from appearing in front of people often. Relemon cannot attack, but it can transform into anything of a similar size to itself as a form of protection. It cannot hide its tail, however, and therefore it is always found out."
+    },
+    {
+        "name": "Sakumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=sakumon",
+        "url_image": "https://digimon.net/cimages/digimon/sakumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Weapon",
+        "attribute": "",
+        "special_Move": "\u30fbSakkuri",
+        "profile": "A small Digimon with a single blade on its head. Sakumon\u2019s whole body is a golden hue, and its head blade shines brightly. It has a mischievous personality, and is seen in constant movement during its waking hours. Still, Sakumon is very unbalanced due to the weight of its head, causing it to roll around waving its blade. Digimon are often seen trying to escape from such movements."
+    },
+    {
+        "name": "Sandmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=sunamon",
+        "url_image": "https://digimon.net/cimages/digimon/sunamon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbSand Toss",
+        "profile": "A Slime Digimon with a body made of sand. Highly territorial, Sandmon is aggressive for an In-Training Digimon. Although it can alter its body composition to flow like sand or hold together like clay, it can never bring itself to transform its pacifier. When approached by enemies, it throws around lots of sand in an attempt at intimidation."
+    },
+    {
+        "name": "Tsubumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tsubumon",
+        "url_image": "https://digimon.net/cimages/digimon/tsubumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "This In-Training Digimon looks like a seed, but it is no Plant-species Digimon. Tsubumon cannot fly, but can move by bouncing along any surface\u2014ground, water, you name it. Some say there is no place it cannot go. Still, its small body is sent flying on blustery days, leading to the common misconception that it is a Plant type. Tsubumon uses its signature move Acid Bubbles to drive off foes."
+    },
+    {
+        "name": "YukimiBotamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=yukimibotamon",
+        "url_image": "https://digimon.net/cimages/digimon/yukimibotamon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbDiamond Dust",
+        "profile": "A Digimon baby with fluffy white hairs covering its entire body. Considered a variant of Botamon, YukimiBotamon gained its name from its white body, but the details are unknown. It is weak to fire, and tends to prefer chilly places. YukimiBotamon\u2019s body is also cold to the touch. It uses its Diamond Dust attack to blow freezing cold air from its mouth. This causes moisture to freeze in the air, and then to fall with a glittering sparkle that resembles diamonds."
+    },
+    {
+        "name": "Yuramon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=yuramon",
+        "url_image": "https://digimon.net/cimages/digimon/yuramon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Seed",
+        "attribute": "",
+        "special_Move": "\u30fbAdhesive Bubble Blow",
+        "profile": "A Seed Digimon covered in a soft, furry substance all over its body. When it hatches from its Digi-Eggs, Yuramon blows through the air like a dandelion seed, seeking out an environment suited to its growth. When it finds a good environment devoid of enemies, it lands and begins preparations for Digivolution. Yuramon has next to no attack strength, but can use Adhesive Bubble Blow to interfere with enemy movement and give it a chance to escape."
+    },
+    {
+        "name": "Zerimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=zerimon",
+        "url_image": "https://digimon.net/cimages/digimon/zerimon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "Extremely rare Digimon born in pairs from a single Digi-Egg. Why Zerimon and Conomon are the only Digimon that can be born as twins is currently unknown. Even more confusingly, sometimes instead of being born with a twin of the same type, one Zerimon and one Conomon will hatch from the same Digi-Egg. Zerimon, with its single horn, tends to be highly energetic, while three-horned Conomon is generally more subdued. Also, unlike other Slime Digimon, the horn on Zerimon\u2019s head is surprisingly tough. Like other In-Training Digimon, Zerimon spits Acid Bubbles to threaten its enemies."
+    },
+    {
+        "name": "Zurumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=zurumon",
+        "url_image": "https://digimon.net/cimages/digimon/zurumon.jpg",
+        "level": "In-Training \u2160",
+        "type": "Slime",
+        "attribute": "",
+        "special_Move": "\u30fbPoison Bubbles",
+        "profile": "A special Slime Digimon with an origin differing from that of other Digimon, as it was born from the fusion of an especially malicious computer virus and the negative thoughts of those who misuse computers. Zurumon moves its soft body with deft skill to crawl across the ground. The material composing its body is incredibly toxic, and it spits venomous bubbles from its mouth, so even large Digimon stay away from it."
+    }
+]

@@ -1,0 +1,512 @@
+[
+    {
+        "name": "Argomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=algomon_lv2",
+        "url_image": "https://digimon.net/cimages/digimon/algomon_lv2.jpg",
+        "level": "In-Training \u2161",
+        "type": "Mutant",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "The form the newborn Argomon grows into. It clings to spots where high-capacity data leaks out, eating data with the mouth on its underside. When enemies approach, it blows Acid Bubbles from its large eye-like pattern."
+    },
+    {
+        "name": "Bebydomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=babydmon",
+        "url_image": "https://digimon.net/cimages/digimon/babydmon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Baby Dragon",
+        "attribute": "",
+        "special_Move": "\u30fbHot Gas",
+        "profile": "A Baby Dragon Digimon whose body demonstrates a marked resemblance to an actual dragon. Bebydomon was only discovered recently, but analysis of its data has revealed program code characteristics of Ancient Digimon, meaning that it is related to a lost Ancient species. Small yet ferocious, any careless movement by an opponent will cause it to expel the Hot Gas it produces in its body. Not only is this gas hot, it also contains acrid components, so rinse your eyes out with water immediately if you are exposed."
+    },
+    {
+        "name": "Bibimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=bibimon",
+        "url_image": "https://digimon.net/cimages/digimon/bibimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbMinimal Flash",
+        "profile": "A Lesser Digimon that Digivolved from Dokimon. Ever full of energy, Bibimon is constantly running around and getting into trouble. Unfortunately, it still isn't used to moving on four legs, so it frequently loses its balance and falls over. In battle, it is unfazed by its opponents despite being an In-Training Digimon, using Minimal Flash to charge itself with electricity and tackle them."
+    },
+    {
+        "name": "Bosamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=bosamon",
+        "url_image": "https://digimon.net/cimages/digimon/bosamon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbTotal Earful",
+        "profile": "Bosamon is a Lesser Digimon that Digivolved from Pyonmon. Since its fur has grown down over its eyes, it\u2019s free to move around without fear of making eye contact. Its former shyness and timidity have also given way to a more reserved and peaceful personality. What\u2019s more, now that it has two large ears, Bosamon\u2019s hearing has improved, allowing it to pinpoint where a sound is coming from, and it\u2019s taken to listening in on conversations between Digimon from afar. Perhaps as a result, it\u2019s also built up a wealth of knowledge about all sorts of things outside its own personal experience. Bosamon isn\u2019t fond of fighting, and will run away at the first sign of an approaching foe. Even if cornered, it will attack with Total Earful, a combo attack using both of its ears, then find a place to hide while its opponent is still reeling."
+    },
+    {
+        "name": "Budmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=budmon",
+        "url_image": "https://digimon.net/cimages/digimon/budmon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Vegetation",
+        "attribute": "",
+        "special_Move": "\u30fbPoisonous Thorns",
+        "profile": "A Vegetation Digimon blending data from various poisonous plants, taking on the look of a plant bud. It usually floats through the air on its leaves, and won\u2019t attack unless provoked. Budmon uses its special move Poisonous Thorns to hurt anything that touches it. If angered, it may even fire off these thorns."
+    },
+    {
+        "name": "Bukamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pukamon",
+        "url_image": "https://digimon.net/cimages/digimon/pukamon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbAir Bubbles",
+        "profile": "Despite resembling an aquatic dinosaur infant, Bukamon is a playful Digimon that can move as skillfully as a seahorse. However, the friendliness of Pichimon seems to have vanished, and Bukamon is quick to flee when others draw near. Since its skin still isn\u2019t fit for the high pressure and low temperature of the ocean\u2019s depths, Bukamon can only spend a limited amount of time submerged in the deep."
+    },
+    {
+        "name": "Chapmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=chapmon",
+        "url_image": "https://digimon.net/cimages/digimon/chapmon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbFoam Shower",
+        "profile": "A Lesser Digimon that only lives near clear, clean waters. Because of this, Chapmon is only ever seen in limited regions, even in the Digital World. It spends most of the day on the water\u2019s surface, even sleeping with just its head poking out of the water. It can detect approaching foes from the faintest movements on the water\u2019s surface, giving it the acuity to flee to safety before it is discovered. Even if discovered, it can spit Foam Shower from its mouth, confusing the opponent with Foam to escape."
+    },
+    {
+        "name": "Cupimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=cupimon",
+        "url_image": "https://digimon.net/cimages/digimon/cupimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Mini Angel",
+        "attribute": "",
+        "special_Move": "\u30fbAngel Ring",
+        "profile": "A Mini Angel Digimon that Digivolved from Puttimon. Unlike how it was during its time as Puttimon, Cupimon likes doing good deeds, and loves bringing everyone happiness. It is actually referred to as the \u201cAngel of Charity,\u201d and specializes in fostering feelings of love within people. Cupimon is always flying around the skies of the Digital World, lavishing love upon everyone and making them happy. Even large Digimon that are filled with belligerence are said to stop fighting when they meet Cupimon. It uses its special move Angel Ring to generate a ring of holy light from the protrusion on its forehead and hurl it at the enemy."
+    },
+    {
+        "name": "DemiMeramon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=petimeramon",
+        "url_image": "https://digimon.net/cimages/digimon/petimeramon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Fire",
+        "attribute": "",
+        "special_Move": "\u30fbSmall Flame Shot",
+        "profile": "DemiMeramon is a Digivolution of Mokumon. Its DigiCore burns with great intensity despite its small frame, and as a result its body is constantly wrapped in flames. Highly volatile for its size, its DigiCore burns at a fever-pitch, and it has an aggressive personality. Since it doesn\u2019t pack much of a punch, though, it\u2019s not very effective in a fight. It also struggles to deal with water, ice, and snow Digimon. If it ever meets one, it will immediately run away. Incidentally, its connection to Meramon is not yet fully understood. DemiMeramon attacks its foes by firing a Small Flame Shot from its mouth, but it\u2019s not very strong."
+    },
+    {
+        "name": "DemiVeemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=chibimon",
+        "url_image": "https://digimon.net/cimages/digimon/chibimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Baby Dragon",
+        "attribute": "",
+        "special_Move": "\u30fbHop Attack",
+        "profile": "A Baby Dragon Digimon that Digivolved from Chibomon. DemiVeemon has a torso and limbs\u2014rare features for In-Training Digimon\u2014allowing it to grab objects in its small hands and bounce around. A glutton by nature, it especially enjoys sweets. DemiVeemon also loves sleeping, and will be found fast asleep the moment after you take your eyes off of it. It hops around and tackles the enemy with its special move Hop Attack."
+    },
+    {
+        "name": "Dorimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=dorimon",
+        "url_image": "https://digimon.net/cimages/digimon/dorimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbMetal Drop",
+        "profile": "A Lesser Digimon that runs off like a shot in a straight direction. Dorimon hate to be tamed, so many remain feral. Approaching a Dorimon is dangerous, as it will charge in recklessly for a tackle. Its pointed ears are tough, acting as horns and inflicting a modicum of damage when it tackles. However, it cannot turn once it has gained speed. Dorimon uses its special move Metal Drop to spit metal beads as it charges toward the enemy."
+    },
+    {
+        "name": "Frimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=frimon",
+        "url_image": "https://digimon.net/cimages/digimon/frimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbTail Slap",
+        "profile": "A Lesser Digimon with frills on its neck. The frills are composed of hardened hair, and Frimon uses them as armor to cover its body when danger looms. Curious and energetic by nature, it tends to react to anything that moves. Frimon even reacts to its own tail, which it is often seen chasing while spinning in place. It uses its Tail Slap attack to apply centrifugal force to its long tail, creating enough force to knock out even Rookie Digimon with a clean hit."
+    },
+    {
+        "name": "Gigimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=gigimon",
+        "url_image": "https://digimon.net/cimages/digimon/gigimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbHot Bite",
+        "profile": "A four-legged In-Training Digimon that grew from a Jyarimon. Its physical features resemble that of Tokomon, including the powerful fangs in its mouth. Unlike Tokomon, who Digivolves into Mammal types, Gigimon\u2014who Digivolves into Dragon types\u2014has a violent personality, and is savage despite its minuscule stature. More than a few large Digimon are deceived by its appearance, and end up paying the price when it fights back. It uses its special move Hot Bite to chomp down on the opponent. Gigimon\u2019s body is hot like Jyarimon\u2019s, causing burns on whatever it bites."
+    },
+    {
+        "name": "Gummymon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=gummymon",
+        "url_image": "https://digimon.net/cimages/digimon/gummymon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbDouble Bubble",
+        "profile": "A Digimon that grew from Zerimon. Cheerful and lively by nature, it inherits an energetic personality from Zerimon. Although it is bigger than before, its body composition remains as unstable and squishy as ever. Just like Zerimon, however, Gummymon\u2019s horn has hardened, which allows it to menace foes with headbutts. The biggest physical change from Zerimon are its body and the ear-like protrusions sprouting from its head. It uses its special move Double Bobble to blow a large number of adhesive bubbles."
+    },
+    {
+        "name": "Gurimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=gurimon",
+        "url_image": "https://digimon.net/cimages/digimon/gurimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbPrickly Attack",
+        "profile": "An In-Training Digimon with two horns on its forehead that grew from Curimon. Gurimon bounds around in search of big, sturdy-looking boulders. When it finds one, it uses its signature move Prickly Attack to crash into the stone with its horns. Should the boulder withstand the attack, Gurimon will be overjoyed, running around in a sudden burst of energy in hopes of growing even stronger. Gurimon\u2019s frill is also more developed, providing protection for its soft body while also making it look bigger than it really is."
+    },
+    {
+        "name": "Hiyarimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=hiyarimon",
+        "url_image": "https://digimon.net/cimages/digimon/hiyarimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbDiamond Dust",
+        "profile": "A Lesser Digimon that Digivolved from YukimiBotamon. Hiyarimon's body is covered in snow, having shed its fluffy white hair. These Digimon live in large numbers on snow-topped mountains, and don't stray out during the day, in case their bodies melt. Apparently Hiyarimon perks up the longer the icicle hanging from its beak gets.\nIts signature move is Diamond Dust, where it blows freezing cold air from its mouth."
+    },
+    {
+        "name": "Hopmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=hopmon",
+        "url_image": "https://digimon.net/cimages/digimon/hopmon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Baby Dragon",
+        "attribute": "",
+        "special_Move": "\u30fbHop Hip",
+        "profile": "A Baby Dragon Digimon that Digivolved from Ketomon. Hopmon is covered in scales too small to discern with the naked eye, making its body sturdier than it looks. It has overcome its cowardice, and has developed a sense of justice along with a hatred for wickedness despite its young age. It uses its signature move Hop Hip to bounce like a super ball and strike with its rear end."
+    },
+    {
+        "name": "Kakkinmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=kakkinmon",
+        "url_image": "https://digimon.net/cimages/digimon/kakkinmon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Armor",
+        "attribute": "",
+        "special_Move": "\u30fbClang-Clang",
+        "profile": "Kakkinmon is a Digimon whose leather hat has become a copper shield, and it has grown harsher as a result. With stronger defenses, it\u2019s become less cautious, and now has a tendency to charge into things without fear. But since its shield is still only made of copper, it\u2019s in for a painful lesson if it gets too reckless. Its special move is Clang-Clang, which involves crashing into foes with the sharp corners of its shield."
+    },
+    {
+        "name": "Kapurimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=capromon",
+        "url_image": "https://digimon.net/cimages/digimon/capromon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbHowling Hertz",
+        "profile": "A small In-Training Digimon wearing a metal helmet. The two horns on the helmet contain antennae that can transmit all sorts of radio waves or sounds. Kapurimon has batlike traits, emitting ultrasonic waves from its mouth and recognizing objects ahead of it from the rebounding waves, instead of relying on its weak eyesight. This allows it to take remain active no matter what time of day or night it is. Kapurimon uses its special move Howling Hertz to make its two horns resonate. Anyone hit by this attack has their hearing paralyzed, even large Digimon."
+    },
+    {
+        "name": "Kokomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=chocomon",
+        "url_image": "https://digimon.net/cimages/digimon/chocomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbDouble Bubble",
+        "profile": "A Digimon that grew from Conomon. The gentle Kokomon gets along well with the energetic Gummymon, and always hangs out with it despite their differences in personality. They\u2019re almost like a single being, with Kokomon wasting away from loneliness if it gets separated from its companion. It uses its special move Double Bubble to blow a large number of adhesive bubbles."
+    },
+    {
+        "name": "Koromon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=koromon",
+        "url_image": "https://digimon.net/cimages/digimon/koromon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbFoam",
+        "profile": "A small Digimon whose body has grown a size bigger, its peach fuzz having fallen off. Koromon can move around vigorously, but combat is still beyond its capabilities. It blows Foam from its mouth to intimidate foes."
+    },
+    {
+        "name": "Kozenimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=kozenimon",
+        "url_image": "https://digimon.net/cimages/digimon/kozenimon.jpg",
+        "level": "In-Training \u2161\n(Xros Wars)",
+        "type": "Mutant",
+        "attribute": "",
+        "special_Move": "\u30fbStrength in Solidarity\n\u30fb\\UE-N",
+        "profile": "Kozenimon is a tiny Digimon resembling a 1-yen coin that lives inside Ganemon\u2019s suitcase. Endlessly optimistic at all times, Kozenimon\u2019s greatest strength is its ability to keep up its positive attitude even in the midst of a slump. It\u2019s also a hard worker that cheerfully gives its all to the money-collecting missions it\u2019s sent out on by Ganemon. Its motto is \u201cEven a million-yen fortune begins with a single coin.\u201d Kozenimon often works in groups, and this is reflected in its special moves. One of these, Strength in Solidarity, involves a group of Kozenimon attacking together. Another, \u00a5UE-N, is the result of many Kozenimon bursting into tears after being insulted, which creates a shockwave.\n\nNote: Kozenimon was a winning submission in the Original Digimon Contest for Digimon Fusion."
+    },
+    {
+        "name": "Kyaromon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=kyaromon",
+        "url_image": "https://digimon.net/cimages/digimon/kyaromon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbTail Swing",
+        "profile": "A Lesser Digimon with a powerful tail. Inquisitive and curious about everything, Kyaromon tends to rush at anything that piques its interest. Its body is almost completely hollow, with the elasticity of a rubber ball. When it puts power into its Tail Swing attack, it packs enough of a punch to send even Rookie Digimon flying."
+    },
+    {
+        "name": "Kyokyomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=kyokyomon",
+        "url_image": "https://digimon.net/cimages/digimon/kyokyomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbMetal Straw",
+        "profile": "A Lesser Digimon with an elongated body. When angered, Kyokyomon stretches up to nine times its usual body length to attack. Since it only stretches straight ahead, however, most foes are able to avoid this strike. Its body is light like Fufumon\u2019s, and it floats in mid-air. Strangely enough, it can actually move fairly quickly by paddling the air with its limbs. Kyokyomon uses its special move Metal Straw to stretch its body and fire an iron spike from its mouth."
+    },
+    {
+        "name": "Minomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=minomon",
+        "url_image": "https://digimon.net/cimages/digimon/minomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Larva",
+        "attribute": "",
+        "special_Move": "\u30fbPinecone",
+        "profile": "Minomon is a Digivolution of Leafmon, having gained a tough outer shell. On days that have nice weather or when it\u2019s in a good mood, Minomon will poke its head out of its shell and veg out.It uses the vines of ivy \"hair\" that grows from its head to hang down from high places or get around by dangling from a larger Digimon. Alternatively, it can move over shorter distances by floating. Its two biggest faults are its idle personality and its generally neutral expression. Still, it has a strong inner core that keeps it from getting discouraged despite its worries and its fears, and it deals well with being alone. Its special move is Pinecone, by which it throws a hard, pinecone-like object at foes."
+    },
+    {
+        "name": "Missimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=missimon",
+        "url_image": "https://digimon.net/cimages/digimon/missimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Machine",
+        "attribute": "",
+        "special_Move": "\u30fbMissile Crash",
+        "profile": "A Machine Digimon with a missile body. Its missile is ignited the moment it Digivolves into Missimon, and it continues to fly until it Digivolves to another form. It can adjust its speed somewhat, but will crash unless it maintains considerable speed, so it cannot stop in one place. Missile Crash uses this speed for a body slam overflowing with destructive force, but it almost never lands due to Missimon\u2019s lack of control."
+    },
+    {
+        "name": "Monimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=monimon",
+        "url_image": "https://digimon.net/cimages/digimon/monimon.jpg",
+        "level": "In-Training \u2161\n(Xros Wars)",
+        "type": "CRT",
+        "attribute": "",
+        "special_Move": "\u30fbRappa\n\u30fbSuppa\n\u30fbToppa",
+        "profile": "A low-ranking ninja Digimon that always moves in groups. That being said, Monimon move while hidden among plants and shadows within a certain range. While clearly underlings, they act like ninjas all the same. Monimon\u2019s emotions show clearly on its face. Although it normally projects calm, the range of its emotions are expressed through emoticons on its \u201cface\u201d monitor. Even it dreams are projected on its face while its sleeps, and it is quite embarrassed by the fact that anyone can see them. It uses its special move Rappa to leap on the opponent en masse, Suppa to fire a water pistol from its mouth, or Toppa to flee at lightning speed."
+    },
+    {
+        "name": "Motimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=mochimon",
+        "url_image": "https://digimon.net/cimages/digimon/mochimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbElastic Bubbles",
+        "profile": "A mollusklike Digimon with highly elastic skin, Motimon uses the protrusions beneath its body to waggle its way around. The name \u201cMotimon\u201d comes from its resemblance to mochi when it puffs up its body in excitement. Despite its appearance, Motimon possesses a surprisingly high degree of intelligence, and so is believed to have developed from a computer dictionary. Capable of understanding human language, Motimon can occasionally be seen altering the shape of its body in an effort at communication. Motimon uses its mochi-like Elastic Bubbles to restrict opponents\u2019 movement."
+    },
+    {
+        "name": "Negamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=negamon",
+        "url_image": "https://digimon.net/cimages/digimon/negamon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Unknown",
+        "attribute": "",
+        "special_Move": "\u30fbDowner Eye",
+        "profile": "An In-Training Digimon that grew by immersing itself in the negative data overflowing from the network. Negamon always wishes for its own demise, and lives quietly within jet-black darkness. It appears before Digimon who get close, using Downer Eye to cause them to prey on themselves under a curse. Said Digimon gradually lose their emotions, fall into darkness, and erode from the inside out, becoming seedbeds to generate new Negamon."
+    },
+    {
+        "name": "Nyaromon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=nyaromon",
+        "url_image": "https://digimon.net/cimages/digimon/nyaromon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbFox Tail",
+        "profile": "A small Digimon with feline traits. Always whimsical, Nyaromon received its name for its cat-like behavior. While curious and fickle by equal measures, it has a lonely side as well. It uses its special move Fox Tail to whip the enemy with the wiry hairs on its tail. Not a single foe has ever been seen flinching under this attack."
+    },
+    {
+        "name": "Pagumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pagumon",
+        "url_image": "https://digimon.net/cimages/digimon/pagumon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbPoison Bubbles",
+        "profile": "A small Digimon that can perform low-altitude flight with the ear-like appendages on its head. Pagumon can move its ears skillfully, using them like hands. In fact, it will often mockingly pull down the enemy\u2019s eyelids, or slap the enemy\u2019s rear. This Digimon loves pranks. It often teases the likes of Koromon or Tsunomon, chasing them around and around. It may spit Poison Bubbles from its mouth to bully other Digimon."
+    },
+    {
+        "name": "Pickmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pickmon",
+        "url_image": "https://digimon.net/cimages/digimon/pickmon.jpg",
+        "level": "In-Training \u2161\n(Xros Wars)",
+        "type": "Minor",
+        "attribute": "",
+        "special_Move": "\u30fbChinchikurin\n\u30fbSugar Plum",
+        "profile": "Pickmon are part of the Starmons corps, making up most of its members. \u201cStarmons\u201d is a unit comprised of a Starmon flanked by several Pickmon. There is a strict hierarchy within each unit, and orders from higher-ranking members must be followed with perfect obedience. As a result, many Pickmon give up on ever becoming a Starmon, dropping out to return to the wild. However, some Pickmon persevere, aiming for independence as they leave the group. These are promoted to become Majors and succeed in becoming Starmon."
+    },
+    {
+        "name": "Pinamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pinamon",
+        "url_image": "https://digimon.net/cimages/digimon/pinamon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Baby Bird",
+        "attribute": "",
+        "special_Move": "\u30fbTingling Spark",
+        "profile": "A Baby Bird Digimon that runs around in constant motion. Pinamon\u2019s emotions come across in the way it runs, and it will not stop unless it feels apathetic or is asleep. Its face does not display any emotion, and its feelings have to be read from its running style, making this Digimon hard to deal with. Like Puwamon, Pinamon loathes having its tail touched. This causes it to launch the miniature electric attack Tingling Spark from its tail, so this creature warrants even more caution than Puwamon."
+    },
+    {
+        "name": "Poromon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=poromon",
+        "url_image": "https://digimon.net/cimages/digimon/poromon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Mini Bird",
+        "attribute": "",
+        "special_Move": "\u30fbPororo Breeze",
+        "profile": "A Mini Bird Digimon that Digivolved from Pururumon, and which is now capable of low-level flight. Poromon has wings, which is quite rare for an In-Training Digimon, and its body is covered in small, downy feathers. Its most charming feature is the ornamental feather on its head, which it cares for with single-minded devotion. Poromon likes to keep things neat and tidy, but since it can\u2019t turn its head (?) to clean itself, it relies on others to stay well-groomed. Its signature move, Pororo Breeze, involves flapping its tiny wings to kick up a cloud of dust. Then, when its opponent flinches, it runs away."
+    },
+    {
+        "name": "Puroromon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=puroromon",
+        "url_image": "https://digimon.net/cimages/digimon/puroromon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Mythical Insectoid",
+        "attribute": "",
+        "special_Move": "\u30fbChikkuritto",
+        "profile": "A Larva Digimon that moves its three pair of wings independently to change its flight path at will. Although it lacks strength, Puroromon\u2019s random flight makes it difficult to capture, and it ends up toying with its enemies, much to the surprise of many. Puroromon uses its special move Chikkuritto to inject a small amount of poison from the tiny stinger on its rear end."
+    },
+    {
+        "name": "Pusurimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pusurimon",
+        "url_image": "https://digimon.net/cimages/digimon/pusurimon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbPrickly Roll",
+        "profile": "A quadrupedal Lesser Digimon with yellow spikes growing from its back. Pusurimon is always running around, full of energy. Every now and then it will appear to stop dead in its tracks, but this is just due to it falling asleep. Its signature move is Prickly Roll, where it causes all the hair on its body to stand on end, then does a spinning leap with its tiny body curled up into a ball to slam into foes."
+    },
+    {
+        "name": "Puyoyomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=puyoyomon",
+        "url_image": "https://digimon.net/cimages/digimon/puyoyomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbStatic Zone",
+        "profile": "Puyoyomon Digivolved from Puyomon after taking in jellyfish data. It\u2019s grown several tentacles by copying the biological characteristics of jellyfish. Puyoyomon has also begun to develop its own opinions, as evidenced by the look of curiosity in its eyes, and once it gets hold of something it\u2019s taken a liking to, it won\u2019t let go. Conversely, if it dislikes something, it will use its electrical attack Static Zone to drive away the object of its scorn. It has a capricious personality, though, and is quick to lose interest even in things it chose to latch onto, releasing its hold and floating on in search of something else that strikes its fancy."
+    },
+    {
+        "name": "Sakuttomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=sakuttomon",
+        "url_image": "https://digimon.net/cimages/digimon/sakuttomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Weapon",
+        "attribute": "",
+        "special_Move": "\u30fbSakusaku",
+        "profile": "An In-Training Digimon that Digivolved from Sakumon to have two blades. The blades on its left and right sides, as well as its new legs, have provided Sakuttomon more stability. It has stopped rolling around and become more active, but can get stuck on the ceiling or walls and stop moving."
+    },
+    {
+        "name": "Tanemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tanemon",
+        "url_image": "https://digimon.net/cimages/digimon/tanemon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Bulb",
+        "attribute": "",
+        "special_Move": "\u30fbAdhesive Bubble Blow",
+        "profile": "Tanemon is a Bulb Digimon with what appears to be a seedling sprouting from its head. It Digivolved from Yuramon when it landed on the ground after drifting through the air in search of the perfect environment. Extremely skittish, Tanemon will use its four legs to quickly dig a hole so it can hide its body at the first sign of a threat. While its body is hidden underground, the seedling on its head makes it indistinguishable from a plant, protecting it from harm. However, this strategy is ineffective against herbivorous Digimon."
+    },
+    {
+        "name": "Tokomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tokomon",
+        "url_image": "https://digimon.net/cimages/digimon/tokomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbBite",
+        "profile": "A small Digimon with four limbs extending from underneath its body (head?). These limbs, which are highly unusual on an In-Training Digimon, give Tokomon a unique and extremely cute look. However, that cuteness can be deceptive, and anyone who reaches out to pet Tokomon may be in for a surprise as it quickly opens its mouth and bites down with its rows of sharp teeth. Tokomon has an innocent personality, though, and doesn\u2019t mean any real harm."
+    },
+    {
+        "name": "Tokomon (X Antibody)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tokomon_x",
+        "url_image": "https://digimon.net/cimages/digimon/tokomon_x.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbTokotoko Dive\n\u30fbBite",
+        "profile": "A small Digimon with four limbs extending from underneath its body (head?). These limbs, which are highly unusual on an In-Training Digimon, give Tokomon a unique and extremely cute look. However, that cuteness can be deceptive, and anyone who reaches out to pet Tokomon may be in for a surprise as it quickly opens its mouth and bites down with its rows of sharp teeth. Tokomon has an innocent personality, though, and doesn\u2019t mean any real harm.\n\n\u25a0Effects of the X Antibody on Tokomon\u2019s DigiCore:\nIt\u2019s rare for an In-Training Digimon to take in the X Antibody, so Tokomon (X Antibody) is often targeted by other Digimon. However, thanks to its daring new personality, it does not find this disheartening, and has overcome much hardship by taking advantage of its small frame and increased agility. The force of its Tokotoko Dive, where it charges into foes at full speed, is such that it can send even large Digimon sprawling, making it difficult to capture."
+    },
+    {
+        "name": "TorikaraBallmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=torikaraballmon",
+        "url_image": "https://digimon.net/cimages/digimon/torikaraballmon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Food",
+        "attribute": "",
+        "special_Move": "\u30fbVegetable Bubbles",
+        "profile": "A Digimon born from deep-fried food recipe data. TorikaraBallmon flaps around wafting a delectable aroma, making the tummies of other Digimon rumble when it shows up in their area. When chased by hungry Digimon, it blows Vegetable Bubbles from its mouth to make the opponent slippery, obstructing their movements while it flies off, leaving nothing but its scent behind."
+    },
+    {
+        "name": "Tsumemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tsumemon",
+        "url_image": "https://digimon.net/cimages/digimon/tsumemon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Unidentified",
+        "attribute": "",
+        "special_Move": "\u30fbNail Scratch",
+        "profile": "An In-Training Digimon that Digivolved beyond Kuramon. The tips of its feelers are shaped like talons, increasing its ferocity. Tsumemon corrodes data at frightening speed, causing networks to malfunction. Its movement speed is just as fast, making it difficult to catch once it\u2019s Digivolved to this level. It uses its special move Nail Scratch to rake with the talons on its feelers."
+    },
+    {
+        "name": "Tsunomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tunomon",
+        "url_image": "https://digimon.net/cimages/digimon/tunomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbAcid Bubbles",
+        "profile": "A small Digimon with a single horn on its head formed by hardening one of Punimon\u2019s feelers. Having Digivolved to be more animalistic than Punimon, Tsunomon is covered in soft fur. Filled with a playful spirit, it loves to pull pranks, and has yet to develop its instinct for conflict."
+    },
+    {
+        "name": "Tumblemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=goromon",
+        "url_image": "https://digimon.net/cimages/digimon/goromon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Ore",
+        "attribute": "",
+        "special_Move": "\u30fbRock Breath",
+        "profile": "An In-Training Digimon that eats rocks to grow. Since Tumblemon\u2019s digestive system isn\u2019t fully developed yet, it holds a surprisingly large amount of ore in its small body that it slowly converts into nutrients. Also, since its eye is located in the same place as its mouth, Tumblemon is unable to see anything while it\u2019s eating. Its signature move is Rock Breath, by which it spits out rocks from its large mouth."
+    },
+    {
+        "name": "Upamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=upamon",
+        "url_image": "https://digimon.net/cimages/digimon/upamon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Amphibian",
+        "attribute": "",
+        "special_Move": "\u30fbShock Shout",
+        "profile": "An In-Training Amphibian Digimon with ear-like gills growing from both sides of its body. Upamon can live both underwater and on land, but seems more suited to life above the waves. Its carefree attitude makes it an easy target for teasing by other Digimon. But it is that attitude that often causes Upamon to misconstrue such teasing as playing. It uses its special move Shock Shout to release an ultrasonic shout, causing the enemy to recoil."
+    },
+    {
+        "name": "Viximon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pokomon",
+        "url_image": "https://digimon.net/cimages/digimon/pokomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbKilling Stone",
+        "profile": "A nocturnal In-Training Digimon that Digivolved from Relemon. It only moves around on moonlit nights, so its existence is considered close to an illusion. For this reason, Tamers treat a Viximon as a sort of status symbol. Depending on how it\u2019s raised, it can grow into an incredibly reassuring Digimon. Viximon always moves so as not to be seen, and few can observe its speed with the naked eye. Still, set out its favorite food of fried tofu, and will appear out of thin air. Its special move Killing Stone turns it to stone and makes it emit a poisonous gas."
+    },
+    {
+        "name": "Wanyamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=wanyamon",
+        "url_image": "https://digimon.net/cimages/digimon/wanyamon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbSmile Fang",
+        "profile": "A Digimon fusing the data of small pet animals, such as cats and dogs. Wanyamon is unexpectedly swift, so caution is warranted to prevent its escape. Even so, it gets quite attached if you fawn over it like a pet. Its special move Smile Fang is a surprise bite attack from an innocent-looking position."
+    },
+    {
+        "name": "Xiaomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=xiaomon",
+        "url_image": "https://digimon.net/cimages/digimon/xiaomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbTummo",
+        "profile": "A quadruped In-Training Digimon that Digivolved from Paomon. Artificially created Digimon are said to basically only Digivolve to Rookie level, with Xiaomon being the type seen the most. It gets attached to people incredibly easily, and is the easiest Digimon to train. Xiaomon uses its special move Tummo to release a high-frequency wave that acts as a charm against evil."
+    },
+    {
+        "name": "Yaamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=yarmon",
+        "url_image": "https://digimon.net/cimages/digimon/yarmon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Lesser",
+        "attribute": "",
+        "special_Move": "\u30fbPaint Splash",
+        "profile": "A Lesser Digimon Digivolved from Keemon. It has turned into quite the contrarian as Yaamon. When it stumbles upon Digimon playing happily, it spits a Paint Splash from its mouth to cover them in ink. Yaamon enjoys seeing how Digimon are stunned by this act."
+    },
+    {
+        "name": "Yokomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pyocomon",
+        "url_image": "https://digimon.net/cimages/digimon/pyocomon.jpg",
+        "level": "In-Training \u2161",
+        "type": "Bulb",
+        "attribute": "",
+        "special_Move": "\u30fbSoap Flower",
+        "profile": "A Bulb Digimon with a big flower blooming on its head. Yokomon moves by deftly manipulating its root-like tentacles, and is able to float softly through the air, albeit for short distances. A curious creature, its restless movements are delightful to behold. Yokomon tend to live in groups\u2014from dozens to hundreds."
+    }
+]
