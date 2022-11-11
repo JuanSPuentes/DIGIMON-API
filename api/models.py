@@ -148,6 +148,6 @@ class XrosWars(models.Model):
 
 class Digimons(models.Model):
     name = models.CharField(max_length=50)
-    href = models.URLField(max_length=200)
+    href = models.URLField(max_length=200, null=True, blank=True)
     level= models.CharField(max_length=50)
 

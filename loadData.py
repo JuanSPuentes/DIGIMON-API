@@ -7,8 +7,35 @@ django.setup()
 import json
 from api import models
 
-json_index = ['training_I', 'training_II', 'rookie', 'champion', 
-              'ultimate', 'mega', 'armor', 'hybrid', 'xros_wars', 'unknown']
+json_index = {'training_I':models.TrainingI, 'training_II': models.TrainingII, 
+              'rookie':models.Rookie, 'champion':models.Champion, 
+              'ultimate':models.Ultimate, 'mega':models.Mega, 'armor':models.Armor, 
+              'hybrid': models.Hybrid, 'xros_wars':models.XrosWars, 'unknown':models.Unknown}
+
+
+def SaveDataDigi(model=None, digi=None, type_d=None, level_=None, atribute_=None, specialMove_=None):
+    """La funcion guarda los datos en la base de datos
+
+    Args:
+        model (object, optional): Modelo que se usa para guardar los datos.
+        digi (dict, optional): diccionario que contenie la data.
+        type_d (list, optional): lista que contiene el objeto.
+        level_ (list, optional): lista que contiene el objeto.
+        atribute_ (list, optional): lista que contiene el objeto.
+        specialMove_ (list, optional): lista que contiene los objetos.
+    """
+
+    if digi['name'].find('(X Antibody)') != -1:
+        x_Antibody = True
+    else:
+        x_Antibody = False
+
+    object_ = model.objects.create(name = digi['name'], url = digi['url'], 
+                                   urlImage = digi['url_image'], level = level_,
+                                   typeD = type_d, attribute = atribute_, 
+                                   profile = digi['profile'], xAntibody= x_Antibody)
+    for b in specialMove_:
+        object_.specialMove.add(b)
 
 
 def main():
@@ -20,7 +47,6 @@ def main():
     models.Level.objects.all().delete()
     models.TypeD.objects.all().delete()
     models.SpecialMove.objects.all().delete()
-    print(models.SpecialMove.objects.all())
     models.TrainingI.objects.all().delete()
     models.TrainingII.objects.all().delete()
     models.Rookie.objects.all().delete()
@@ -29,6 +55,7 @@ def main():
     models.Mega.objects.all().delete()
     models.Armor.objects.all().delete()
     models.Hybrid.objects.all().delete()
+    models.Digimons.objects.all().delete()
 
     for i in json_index:
         with open('json/{}'.format(i+".json")) as file:
@@ -82,88 +109,16 @@ def main():
             specialMove = models.SpecialMove.objects.all()
             specialMove_ = []
             for spc in a:
-                
                 if spc not in specialMove:
-                    
                     specialMove_.append(models.SpecialMove.objects.create(specialMove = spc))
                 else:
                     print('entro al get')
                     specialMove_.append(models.SpecialMove.objects.get(specialMove = spc))
 
+            """Funcion que guarda la data"""
+            SaveDataDigi(model=json_index[i], digi=digi, type_d=type_d, level_=level_, atribute_=atribute_, specialMove_=specialMove_)
 
-            if digi['level'] == 'In-Training \u2160' or digi['level'] == 'In-Training \u2160 (Xros Wars)':
-                objects = models.TrainingI.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
-            
-            if digi['level'] == 'In-Training \u2161' or digi['level'] == 'In-Training \u2161 (Xros Wars)':
-                objects = models.TrainingII.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
-
-            if digi['level'] == 'Rookie' or digi['level'] == 'Rookie (Xros Wars)':
-                objects = models.Rookie.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
-
-
-            if digi['level'] == 'Champion' or digi['level'] == 'Champion (Xros Wars)':
-                objects = models.Champion.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
-
-
-            if digi['level'] == 'Ultimate' or digi['level'] == 'Ultimate (Xros Wars)':
-                objects = models.Ultimate.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
-
-            if digi['level'] == 'Mega' or digi['level'] == 'Mega (Xros Wars)':
-                objects = models.Mega.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
-
-            if digi['level'] == 'Armor' or digi['level'] == 'Armor (Xros Wars)':
-                objects = models.Armor.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
-
-            if digi['level'] == 'Hybrid' or digi['level'] == 'Hybrid (Xros Wars)':
-                objects = models.Hybrid.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
-
-            if digi['level'] == 'Unknown' or digi['level'] == 'Unknown (Xros Wars)':
-                objects = models.Unknown.objects.create(name = digi['name'], url = digi['url'], 
-                                                urlImage = digi['url_image'], level = level_,
-                                                typeD = type_d, attribute = atribute_, 
-                                                profile = digi['profile'])
-                for b in specialMove_:
-                    objects.specialMove.add(b)
+            models.Digimons.objects.create(name = digi['name'], level = level_)
 
 
 if __name__ == '__main__':
