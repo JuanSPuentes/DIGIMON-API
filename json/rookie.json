@@ -958,5 +958,615 @@
         "attribute": "Data",
         "special_Move": "\u30fbKocchon\n\u30fbMinideka Flame",
         "profile": "Profile\nA Rookie Digimon so small it is mistaken for an In-Training one. Minidekachimon is no good at fighting, but it has a big attitude. It tends to throw its weight around, using Kocchon to make use of its small stature, jumping in close to infuriate the opponent and exhaust their stamina. Still, it is protected in Atamadekachimon\u2019s mouth, giving it peace of mind no matter what pandemonium occurs. Minidekachimon cooperates with Atamadekachimon by using Minideka Flame to spit fire from its mouth, but there\u2019s no way to tell if the flame will be big or small."
+    },
+    {
+        "name": "ModokiBetamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=modokibetamon",
+        "url_image": "https://digimon.net/cimages/digimon/modokibetamon.jpg",
+        "level": "Rookie",
+        "type": "Amphibian",
+        "attribute": "Data",
+        "special_Move": "\u30fbAqua Tower\n\u30fbBlade Fin",
+        "profile": "Profile\nModokiBetamon is an Amphibian Digimon much like Betamon. Despite being nearly identical to Betamon in appearance, though, ModokiBetamon is actually an extremely rare Digimon with a small population. It has a gentle disposition, and generally inhabits quiet wetlands where it skillfully manipulates the water currents. Its special moves include Aqua Tower, where it generates a small whirlpool, and Blade Fin, which involves firing a shockwave from the crest on its head."
+    },
+    {
+        "name": "Monitamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=monitamon",
+        "url_image": "https://digimon.net/cimages/digimon/monitamon.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "CRT",
+        "attribute": "Data",
+        "special_Move": "\u30fbFire Shot\n\u30fbWater Dragon\n\u30fbWind Wheel\n\u30fbLightning Flash\n\u30fbCyberRecon",
+        "profile": "Profile\nA ninja Digimon that enjoys Digimon watching, and is always observing someone. While Monitamon insists on calling itself a ninja, its actions are more like those of a stalker. If you spot one in the area, it\u2019s safe to assume there are thirty more around. It weilds an array of ninjutsu techniques, albeit weak ones: the fireball Fire Shot, the water pistol Water Dragon, the wind-blowing Wind Wheel, and the discharging Lightning Flash. Monitamon\u2019s strength lies not in its battle prowess, but in its information-sharing ability. It can use this to record and share any information it has gathered with other Monitamon, spreading whatever it sees far and wide\u2014be it good, bad, or downright embarrassing."
+    },
+    {
+        "name": "Monmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=koemon",
+        "url_image": "https://digimon.net/cimages/digimon/koemon.jpg",
+        "level": "Rookie",
+        "type": "Beast",
+        "attribute": "Virus",
+        "special_Move": "\u30fbMischievous Hoop\n\u30fbBaby Sling",
+        "profile": "Profile\nA Beast Digimon with the appearance of a baby monkey. Monmon is strong enough to wield a slingshot the size of its body with ease, and confident enough not to let any prey it targets escape. Its movements are fast, but its careless nature means it falls out of trees quite a bit. Its tiger-print clothes and white tail tip are very chic indeed. It uses its signature move Mischievous Hoop to catch the opponent\u2019s feet with a hoop, causing them to take a tumble. Its special move Baby Sling is a precise ranged strike boasting infallible accuracy."
+    },
+    {
+        "name": "Monodramon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=monodramon",
+        "url_image": "https://digimon.net/cimages/digimon/monodramon.jpg",
+        "level": "Rookie",
+        "type": "Mini Dragon",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbCrack Bite",
+        "profile": "Profile\nA Mini Dragon Digimon that cannot fly, despite the batlike wings on both arms. Monodramon has a pretty rough personality for a Vaccine type, veering close to brutality and giving the impression of a Digimon who enjoys a good fight. It ends up in the midst of most brawls in the Digital World, causing even Ogremon to get fed up with its persistence. Rumor has it that the backwards-growing horn is Monodramon\u2019s weak point, but this hasn\u2019t been confirmed. Its signature move Crack Bite fragments the data in its jaws, causing the enemy to collapse and malfunction depending on where they\u2019re bitten. Its special move Knuckle Beater is a simple yet bold strike whereby it charges with staggering force before slashing the enemy with its powerful claws."
+    },
+    {
+        "name": "Morphomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=morphomon",
+        "url_image": "https://digimon.net/cimages/digimon/morphomon.jpg",
+        "level": "Rookie",
+        "type": "Insectoid",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbIntense Therapy",
+        "profile": "Profile\nA Digimon with hands and ears composed of butterfly wings. Morphomon has a laid-back personality, and feels enjoyment toward nature. When it meets someone for the first time, it touches them to determine whether they\u2019re safe or not. If they are, and if it takes a liking to them, Morphomon will go with them. When Morphomon\u2019s ear-wings flap vigorously, this is apparently a sign of it being in a great mood. It uses Intense Therapy to scatter scales from its wings with varying effects depending on the opponent, soothing mind and body or paralyzing the target."
+    },
+    {
+        "name": "Muchomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=muchomon",
+        "url_image": "https://digimon.net/cimages/digimon/muchomon.jpg",
+        "level": "Rookie",
+        "type": "Bird",
+        "attribute": "Data",
+        "special_Move": "\u30fbTropical Beak",
+        "profile": "Profile\nA flightless Bird Digimon, just like Penmon. Raised in a tropical southern land, Muchomon lives a life of constant cheer. It overflows with passion, dances to a samba beat, and loves its vivid, richly-colored pelt. It uses its special move Tropical Beak to peck the opponent with its colorful beak."
+    },
+    {
+        "name": "Mushroomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=mushmon",
+        "url_image": "https://digimon.net/cimages/digimon/mushmon.jpg",
+        "level": "Rookie",
+        "type": "Vegetation",
+        "attribute": "Virus",
+        "special_Move": "\u30fbFungus Crusher",
+        "profile": "Profile\nA small Vegetation Digimon in the shape of a poisonous mushroom. Small but potent poisonous mushroom bombs growing from Mushroomon\u2019s body cause all kinds of afflictions. Anyone hit by one of these bombs could start laughing uncontrollably, have their body go numb, lose their memories, and more. Mushroomon is extremely ill-tempered and loves to pick on the weak, but also has a shy side, always hiding half of its face. Its special move Fungus Crusher scatters a spread of mini-mushroom bombs."
+    },
+    {
+        "name": "Neemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=neamon",
+        "url_image": "https://digimon.net/cimages/digimon/neamon.jpg",
+        "level": "Rookie",
+        "type": "Beast",
+        "attribute": "Data",
+        "special_Move": "\u30fbEscape Dash\n\u30fbPlay Possum",
+        "profile": "Profile\nA Beast Digimon with a carefree personality and a penchant for causing trouble. Though Neemon spends most of its time staring off at nothing with its half-closed eyes, it is quick to run away at the first sign of danger. Bokomon has little patience for Neemon\u2019s laziness, and so Neemon often suffers the wrath of Bokomon\u2019s Rubber Snap. Although Neemon knows more than might be expected from its looks, very little of its knowledge is actually useful. It is extremely fond of its close-fitting trousers, and wears them at all times. Neemon\u2019s signature move is Escape Dash. Its special move is Play Possum, by which it pretends to have fallen asleep to get out of a difficult situation."
+    },
+    {
+        "name": "Otamamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=otamamon",
+        "url_image": "https://digimon.net/cimages/digimon/otamamon.jpg",
+        "level": "Rookie",
+        "type": "Amphibian",
+        "attribute": "Virus",
+        "special_Move": "\u30fbLullaby Bubble",
+        "profile": "Profile\nA larva Digimon whose epidermis has yet to solidify due to living underwater. Otamamon swims through swamps and rivers upstream of the Net Ocean with its large tail, occasionally clambering onto rocks with its developed forelimbs to do vocal exercises. Unlike those of an average organism, its hind legs are almost completely undeveloped, acting as rudders in place of its propulsive tail. This Digimon is valuable due to the fact that it\u2019s future Digivolution is clearly indicated for a Rookie, but it is extremely prone to mutation, so caution is warranted when raising it. Otamamon uses its special move Lullaby Bubble to send opponents into an eternal slumber."
+    },
+    {
+        "name": "Otamamon (Red)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=otamamon-red",
+        "url_image": "https://digimon.net/cimages/digimon/otamamon-red.jpg",
+        "level": "Rookie",
+        "type": "Amphibian",
+        "attribute": "Data",
+        "special_Move": "\u30fbBoiling Bubble",
+        "profile": "Profile\nAn Otamamon mutation that acquired the attribute of flames. This attribute is the reason why Otamamon (Red) prefers hot springs instead of cold rivers. Like Otamamon, it loves to sing, and never skips out on vocal training. Its developed forelimbs are strong enough to clamber up rocks, and are powerful assets in battle. Otamamon (Red) uses its special move Boiling Bubble to spit bubbles hot enough to scald."
+    },
+    {
+        "name": "Otamamon (X Antibody)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=otamamon_x",
+        "url_image": "https://digimon.net/cimages/digimon/otamamon_x.jpg",
+        "level": "Rookie",
+        "type": "Amphibian",
+        "attribute": "Virus",
+        "special_Move": "\u30fbLullaby Bubble\n\u30fbSmiley Headbutt",
+        "profile": "Profile\nA larva Digimon whose epidermis has yet to solidify due to living underwater. Otamamon swims through swamps and rivers upstream of the Net Ocean with its large tail, occasionally clambering onto rocks with its developed forelimbs to do vocal exercises. Unlike those of an average organism, its hind legs are almost completely undeveloped, acting as rudders in place of its propulsive tail. This Digimon is valuable due to the fact that it\u2019s future Digivolution is clearly indicated for a Rookie, but it is extremely prone to mutation, so caution is warranted when raising it. Otamamon uses its special move Lullaby Bubble to send opponents into an eternal slumber.\n\n\u25a0Effects of the X Antibody on Otamamon\u2019s DigiCore:\nOtamamon\u2019s body has grown even bigger while its vocals have grown louder, and the effect of Lullaby Bubble is even stronger than before. A certain Mutant Mega Digimon saw future prospects in its round body, bestowing the gorgeous crown known as the \u201cPrince\u2019s Hand-Me-Down.\u201d This stately appearance makes foes hesitant to attack. Said Digimon also taught Otamamon (X Antibody) its signature move Smiley Headbutt, which it uses to headbutt the enemy with a smile on its face. The move is weak, however, and its face still cramps up."
+    },
+    {
+        "name": "Palmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=palmon",
+        "url_image": "https://digimon.net/cimages/digimon/palmon.jpg",
+        "level": "Rookie",
+        "type": "Vegetation",
+        "attribute": "Data",
+        "special_Move": "\u30fbPoison Ivy",
+        "profile": "Profile\nA Vegetation Digimon with a tropical flower growing on its head. Though it Digivolved from Tanemon in a reptilian fashion, it\u2019s a rare type of Digimon classified as a Vegetation Digimon based on its appearance and characteristics. During the day, Palmon opens its flower and leaf-like appendages to enable photosynthesis. Its root-like feet are usually buried in the ground absorbing nutrients, but it can also use them to walk. The flower on Palmon\u2019s head gives off a sweet scent when it\u2019s happy or enjoying itself and a foul stench when it\u2019s angry or feels threatened. The latter is so bad it can send even larger Digimon running. Palmon\u2019s special move is Poison Ivy, by which it wraps its foe in ivy laced with a strong poison. Anything hit by this attack is paralyzed."
+    },
+    {
+        "name": "Palmon (X Antibody)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=palmon_x",
+        "url_image": "https://digimon.net/cimages/digimon/palmon_x.jpg",
+        "level": "Rookie",
+        "type": "Vegetation",
+        "attribute": "Data",
+        "special_Move": "\u30fbPoison Ivy\n\u30fbRGB Herb",
+        "profile": "Profile\nA Vegetation Digimon with a tropical flower growing on its head. Though it Digivolved from Tanemon in a reptilian fashion, it\u2019s a rare type of Digimon classified as a Vegetation Digimon based on its appearance and characteristics. During the day, Palmon opens its flower and leaf-like appendages to enable photosynthesis. Its root-like feet are usually buried in the ground absorbing nutrients, but it can also use them to walk. The flower on Palmon\u2019s head gives off a sweet scent when it\u2019s happy or enjoying itself and a foul stench when it\u2019s angry or feels threatened. The latter is so bad it can send even larger Digimon running. Palmon\u2019s special move is Poison Ivy, by which it wraps its foe in ivy laced with a strong poison. Anything hit by this attack is paralyzed.\n\n\u25a0Effects of the X Antibody on Palmon\u2019s DigiCore:\nThe charming tropical flower on its head has bloomed even further, and its color and aroma now convey Palmon (X Antibody)\u2019s emotions to a striking degree. When angered, its petals turn red and emit a poisonous smell; when sad, its petals turn turquoise and release a refreshing scent that suppresses the enemy\u2019s will to fight; when happy, its petals turn yellow and give off a bouquet that traps surrounding Digimon in illusions that divorce them from reality altogether. The essence of these scents are blended within Palmon (X Antibody) to create RGB Herb. Digimon scratched by the claws on its arms are thrown into a temporary confusion by the poison synthesized within."
+    },
+    {
+        "name": "Patamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=patamon",
+        "url_image": "https://digimon.net/cimages/digimon/patamon.jpg",
+        "level": "Rookie",
+        "type": "Mammal",
+        "attribute": "Data",
+        "special_Move": "\u30fbAir Shot\n\u30fbWing Slap",
+        "profile": "Profile\nA Mammal Digimon known for its large ears. Patamon can use these to fly, but since it can only do so at a little over 0.5 mph, its walking speed is said to be considerably faster. Even so, watching it struggle to fly is an endearing sight, making it very popular (although Patamon itself doesn\u2019t appreciate this). Patamon is extremely obedient and very good about doing what it\u2019s told. It can also use its Hidden Power without a Holy Ring\u2014a sign that it\u2019s descended from an Ancient species of Digimon. Patamon has two special moves: Air Shot, by which it takes a deep breath and then releases a powerful blast of air, and Wing Slap, by which it attacks its foe with its two large ears."
+    },
+    {
+        "name": "PawnChessmon (Black)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=paunchessmon",
+        "url_image": "https://digimon.net/cimages/digimon/paunchessmon.jpg",
+        "level": "Rookie",
+        "type": "Puppet",
+        "attribute": "Virus",
+        "special_Move": "\u30fbPawn Spear\n\u30fbPawn Buckler\n\u30fbPyramid Formation",
+        "profile": "Profile\nA Puppet Digimon born from data that flowed from a chess supercomputer. While weak at first, this cannon fodder Digimon possesses the ability to be promoted as it gains achievements, until it even attains Mega-class power. Its catchphrase is \u201cI only advance!\u201d Anyone who seeks promotion before PawnChessmon (Black) is treated as a rival. It uses its special move Pawn Spear to stab with its spear, or Pawn Buckler to hold up its round shield for a charge. In addition, Pyramid Formation is a special mode that can halt the attack of even an Ultimate-class Digimon when PawnChessmon (Black) obtains backup support from its allies."
+    },
+    {
+        "name": "PawnChessmon (White)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=paunchessmon-white",
+        "url_image": "https://digimon.net/cimages/digimon/paunchessmon-white.jpg",
+        "level": "Rookie",
+        "type": "Puppet",
+        "attribute": "Virus",
+        "special_Move": "\u30fbPawn Spear\n\u30fbPawn Buckler\n\u30fbPyramid Formation",
+        "profile": "Profile\nA Puppet Digimon born from data that flowed from a chess supercomputer. While weak at first, this cannon fodder Digimon possesses the ability to be promoted as it gains achievements, until it even attains Mega-class power. Its catchphrase is \u201cI only advance!\u201d Anyone who seeks promotion before PawnChessmon (White) is treated as a rival. It uses its special move Pawn Spear to stab with its spear, or Pawn Buckler to hold up its round shield for a charge. In addition, Pyramid Formation is a special mode that can halt the attack of even an Ultimate-class Digimon when PawnChessmon (White) obtains backup support from its allies."
+    },
+    {
+        "name": "Penmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=penmon",
+        "url_image": "https://digimon.net/cimages/digimon/penmon.jpg",
+        "level": "Rookie",
+        "type": "Bird",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbSuper Slap",
+        "profile": "Profile\nA Bird Digimon resembling a penguin found in the computer of an Antarctic base. Since Penmon lives in snow-covered regions, it doesn\u2019t do well in the heat. It\u2019s extremely friendly to humans, however, and will happily waddle along behind them. Its wings have degenerated, so it can\u2019t fly or walk very quickly, but it can slide across the ice on its belly at almost 40 mph. Or when it\u2019s in the water, it can use its small wings to skillfully swim around. Its special move is Super Slap, which involves approaching an enemy without being noticed, then smacking their cheeks with both arms as hard as it can."
+    },
+    {
+        "name": "Phascomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=phascomon",
+        "url_image": "https://digimon.net/cimages/digimon/phascomon.jpg",
+        "level": "Rookie",
+        "type": "Dark Beast",
+        "attribute": "Virus",
+        "special_Move": "\u30fbEvil Snore\n\u30fbEucalyptus Claw",
+        "profile": "Profile\nA Dark Beast Digimon living in the black woods known as the Evil Forest spread across the expanse of the Dark Area. Phascomon is always curled up in the trees, and is often found sleeping. Although it seems harmless at first glance, this is an Evil-species Digimon through and through. Many reports tell of injuries incurred by those who let their guard down, allowing it to drop down from the trees above and attack. Phascomon uses its special move Evil Snore to emit a sleep-inducing wave from its listless eyes, or Eucalyptus Claw to attack with sharp claws containing a paralyzing venom."
+    },
+    {
+        "name": "Pillomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pillomon",
+        "url_image": "https://digimon.net/cimages/digimon/pillomon.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Mammal",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbLullaby Bubble\n\u30fbNightmare Bubble",
+        "profile": "Profile\nPillomon is a Digimon resembling a cross between a pillow and a sheep. It spends most of its time floating around while asleep. Pillomon can bring deep, satisfying sleep to anyone nearby, although it eats the dreams of those who benefit from its presence. What\u2019s more, two types of bubbles float near Pillomon while it\u2019s sleeping. The first is the Lullaby Bubble, which appears when Pillomon is enjoying its sleep. Those who touch this bubble will soon fall into a peaceful slumber. The other is the Nightmare Bubble, which appears when Pillomon\u2019s sleep is less pleasant. Those who touch this bubble will suffer a psychic attack in the form of several bad dreams and delusions.\n\nNote: Pillomon was a winning submission in the Original Digimon Contest for Digimon Fusion."
+    },
+    {
+        "name": "Pomumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pomumon",
+        "url_image": "https://digimon.net/cimages/digimon/pomumon.jpg",
+        "level": "Rookie",
+        "type": "Vegetation",
+        "attribute": "Data",
+        "special_Move": "\u30fbRapid Seed\n\u30fbFruit Rush",
+        "profile": "Profile\nThis Vegetation Digimon may look like a Bird type, but its body is stuffed with high sugar content juice, just like a fruit. For this reason, Pomumon has many natural enemies, from Bird to Insect Digimon. Although it has wings, it flies slowly and becomes defenseless during flight, so it stays mostly on land.\nWhen it senses danger, Pomumon uses Rapid Seed to spit innumerable seed-like bullets from its mouth as a defensive technique. It also uses Fruit Rush to curl up and charge, more as a means of escape than attack."
+    },
+    {
+        "name": "Psychemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=psychemon",
+        "url_image": "https://digimon.net/cimages/digimon/psychemon.jpg",
+        "level": "Rookie",
+        "type": "Reptile",
+        "attribute": "Data",
+        "special_Move": "\u30fbColorful Spark\n\u30fbGlittering Horn\n\u30fbColorful Dance",
+        "profile": "Profile\nA Digimon characterized by its disconcerting, gaudy coloring. Psychemon is said to be a mutation of Gabumon. Its personality is as bright and flamboyant as its multicolored body, but without its pelt, it becomes just as timid as Gabumon would be. It uses its special move Colorful Spark to concentrate primary-colored electric energy and detonate it on enemies, or Glittering Horn to charge and unleash the same colorful electric energy from its horn. Don\u2019t look down on Colorful Dance either, where Psychemon uses the colors of its body in a bizarre dance to bewilder foes."
+    },
+    {
+        "name": "Pulsemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=pulsemon",
+        "url_image": "https://digimon.net/cimages/digimon/pulsemon.jpg",
+        "level": "Rookie",
+        "type": "Beast Man",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbElectric Rush\n\u30fbMinor Impulse",
+        "profile": "Profile\nA Digimon whose Digivolution was influenced by EKG waveform data stored in hospitals and gyms. Pulsemon has a lively, upbeat personality and is happy to interact with anyone. Its characteristic lightning-shaped hair reflects its emotions, and will droop when Pulsemon is feeling down.\nIn battle, Pulsemon makes use of its natural speed to make it tricky to pin down, moving around in lightning-shaped patterns.\nIts special moves are Electric Rush, where it slams into its opponent at lightning speed, and Minor Impulse, where it fires a blast of biologically-produced electricity from its hair.\nA large number of Digimon aside from Pulsemon have been discovered to be influenced by human biological data when improving their abilities or Digivolving."
+    },
+    {
+        "name": "Renamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=renamon",
+        "url_image": "https://digimon.net/cimages/digimon/renamon.jpg",
+        "level": "Rookie",
+        "type": "Beast Man",
+        "attribute": "Data",
+        "special_Move": "\u30fbKohenkyo\n\u30fbDiamond Storm",
+        "profile": "Profile\nA Beast Man Digimon with the appearance of a golden fox. Renamon\u2019s relationship to humans is clearly demonstrated, and its In-Training form can Digivolve into a Digimon of high intelligence if it is raised properly. Calm and collected at all times, it trains in order to keep its cool in any situation. Renamon\u2019s tall, slender form stands out among Rookie Digimon, and it prefers the speed of its many techniques over power when it comes to fighting the enemy. Its signature move Kohenkyo is a transformation technique that copies the opponent\u2019s appearance and overwrites its texture. Its special move Diamond Storm hurls razor-sharp wood chips at the enemy."
+    },
+    {
+        "name": "Renamon (X Antibody)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=renamon_x",
+        "url_image": "https://digimon.net/cimages/digimon/renamon_x.jpg",
+        "level": "Rookie",
+        "type": "Beast Man",
+        "attribute": "Data",
+        "special_Move": "\u30fbTaikyokusen\n\u30fbKoch\u014dgen",
+        "profile": "Profile\nA Beast Man Digimon with the appearance of a golden fox. Renamon\u2019s relationship to humans is clearly demonstrated, and its In-Training form can Digivolve into a Digimon of high intelligence if it is raised properly. Calm and collected at all times, it trains in order to keep its cool in any situation. Renamon\u2019s tall, slender form stands out among Rookie Digimon, and it prefers the speed of its many techniques over power when it comes to fighting the enemy. Its signature move Kohenkyo is a transformation technique that copies the opponent\u2019s appearance and overwrites its texture. Its special move Diamond Storm hurls razor-sharp wood chips at the enemy.\n\n\u25a0Effects of the X Antibody on Renamon\u2019s DigiCore:\nRenamon (X Antibody) channels the otherworldly power welling up within itself into an aura that surrounds it, which shows that despite only being a Rookie, it is already a proud Onmyoji, well-versed in the art of sorcery. The appearance of its second long tail and the red patterns on its body are signs of Renamon (X Antibody)\u2019s increased strength. Its techniques have also grown more refined, and it makes cunning use of its special moves to control the battlefield. These include Taikyokusen, which involves firing a spinning yin-yang slash to slice through foes, and Koch\u014dgen, where it changes not only its own texture data but that of the surrounding area as well, inviting foes to step into a world of illusions."
+    },
+    {
+        "name": "Ryudamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=ryudamon",
+        "url_image": "https://digimon.net/cimages/digimon/ryudamon.jpg",
+        "level": "Rookie",
+        "type": "Beast",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbKabutogaeshi\n\u30fbIai Blade",
+        "profile": "Profile\nA Beast Digimon presumed to be an experimental \u201cPrototype Digimon\u201d from before Digimon were discovered due to the antiquated interface on its forehead. Ryudamon is covered in Japanese-style armor that boasts a high defense, yet its movements are quite nimble, allowing it to attack by jumping boldly right into the enemy\u2019s chest. The more it fights, the more it cultivates its combat skills. Ryudamon possesses gallantry, a samurai spirit, and a soul unafraid of powerful enemy Digimon. During an experiment, the brazen combat data of \u201cmilitary commanders\u201d and \u201cdragons\u201d from Japanese myth was said to be hidden in the deepest part of its DigiCore, and it can supposedly grow into a mighty Digimon. Ryudamon uses its signature move Kabutogaeshi to take the enemy\u2019s attack with its armored helmet before countering. With Iai Blade, it jumps at the opponent\u2019s chest before firing an iron blade from its mouth."
+    },
+    {
+        "name": "Salamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=plotmon",
+        "url_image": "https://digimon.net/cimages/digimon/plotmon.jpg",
+        "level": "Rookie",
+        "type": "Mammal",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbPuppy Howl",
+        "profile": "Profile\nSalamon is a young sacred-species Digimon with distinctive floppy ears. Since it\u2019s still a child, it isn\u2019t able to make full use of its holy powers, and has yet to realize its destiny. As a result, its nature is fundamentally unstable, and it is capable of becoming either good or evil. There will likely come a day, however, when Salamon will awaken to its destiny as one of the Virus Busters. After all, it was born a sacred-species Digimon. Salamon is also an experimental Digimon created by Digimon researchers, and since it was modeled after a human pet, it looks a great deal like a real animal. Its special move Puppy Howl involves letting out a supersonic screech that can paralyze foes."
+    },
+    {
+        "name": "Salamon (X Antibody)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=plotmon_x",
+        "url_image": "https://digimon.net/cimages/digimon/plotmon_x.jpg",
+        "level": "Rookie",
+        "type": "Mammal",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbPuppy Howl\n\u30fbPuppy Paw",
+        "profile": "Profile\nSalamon is a young sacred-species Digimon with distinctive floppy ears. Since it\u2019s still a child, it isn\u2019t able to make full use of its holy powers, and has yet to realize its destiny. As a result, its nature is fundamentally unstable, and it is capable of becoming either good or evil. There will likely come a day, however, when Salamon will awaken to its destiny as one of the Virus Busters. After all, it was born a sacred-species Digimon. Salamon is also an experimental Digimon created by Digimon researchers, and since it was modeled after a human pet, it looks a great deal like a real animal. Its special move Puppy Howl involves letting out a supersonic screech that can paralyze foes.\n\n\u25a0Effects of the X Antibody on Salamon\u2019s DigiCore:\nIts cuteness as a pet increases, bringing more happiness to those who see it. Salamon (X Antibody)\u2019s holy power has increased as well, gaining it the Puppy Paw technique that it uses to create a barrier against Virus Digimon in the wake of its steps. Still, it is unaware of this technique."
+    },
+    {
+        "name": "Sangomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=sangomon",
+        "url_image": "https://digimon.net/cimages/digimon/sangomon.jpg",
+        "level": "Rookie",
+        "type": "Mollusk",
+        "attribute": "Data",
+        "special_Move": "\u30fbRefuge Mist\n\u30fbCoral Pressure",
+        "profile": "Profile\nA Mollusk Digimon living in the shallows of the Net Ocean. Sangomon has a gentle and cheerful disposition that allows it to form connections with many other species. It uses Shellmon\u2019s back as a bed, and Crabmon has been witnessed trimming the coral protruding from its head. When attacked by an invader, Sangomon uses Refuge Mist, a tear-inducing poisonous mist scattered from its coral, to make its escape. When this fails, it fights back with Coral Pressure, shooting high-pressure water from the ends of its arms."
+    },
+    {
+        "name": "Shamamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=shamamon",
+        "url_image": "https://digimon.net/cimages/digimon/shamamon.jpg",
+        "level": "Rookie",
+        "type": "Demon",
+        "attribute": "Virus",
+        "special_Move": "\u30fbShama Hammer",
+        "profile": "Profile\nA Goblimon whose duty is to hear the will of God and convey it to its clan. Shamanmon conducts a ritual in which it performs a strange dance, and supposedly hears divine messages once its fervor reaches its peak. Its clan uses this ritual to foretell matters of import. Shamanmon uses its special move Shama Hammer to bonk the enemy on the head with the large club it also uses in its ritual."
+    },
+    {
+        "name": "Shoutmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=shoutmon",
+        "url_image": "https://digimon.net/cimages/digimon/shoutmon.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Mini Dragon",
+        "attribute": "Data",
+        "special_Move": "\u30fbRock Soul\n\u30fbSoul Crusher\n\u30fbRowdy Rocker",
+        "profile": "Profile\nA ferocious Digimon with amazing vigor and extreme aggression. Even so, it is friendly to allies, and those recognized by Shoutmon can establish a deep bond that transcends species. A special function in Shoutmon\u2019s throat changes passion into energy, unleashing a Soul Crusher attack that uses a mic to amplify the burning passion in its chest and strike the enemy. Because passion is the source of its strength, Shoutmon will not abandon a battle no matter how much damage it receives, contributing to its savage reputation. Although it appears savage, it has a love of music and song, and enjoys humming along to the sounds of nature, such as wind, raindrops, babbling brooks, and rustling leaves. Sometimes it gets too wrapped up in its song and unleashes Soul Crusher even without enemies around, and so putting some distance between you and Shoutmon when it starts singing is a prudent move. For some strange reason it\u2019s always carrying around a McField-brand mic; a Shoutmon without a mic can\u2019t be called a Shoutmon. Losing one\u2019s mic will cause a rapid loss of power from the shock of its loss of identity, before it wastes away completely. Thus, you shouldn\u2019t play pranks on it by hiding its mic. Incidentally, the Rowdy Rocker move that utilizes this mic as a staff is first-rate both in combat as well as during a performance."
+    },
+    {
+        "name": "Shoutmon + Dorulu Cannon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=dorulucannon",
+        "url_image": "https://digimon.net/cimages/digimon/dorulucannon.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Enhancement",
+        "attribute": "Data",
+        "special_Move": "\u30fbDorulu Cannon",
+        "profile": "Profile\nDorulumon\u2019s Bombardment Mode. This is Dorulumon\u2019s ultimate special move, condensing and firing all of the energy it possesses. It requires Dorulumon to focus on loading the ammunition, so the cooperation of another Digimon is indispensable for the actual aiming process. Its defense also decreases to nothing while it accumulates energy, leaving it completely vulnerable. This of course means that it requires another Digimon to guard it during this period, making this technique one that can only be used based on absolute trust in its partner."
+    },
+    {
+        "name": "Shoutmon + Jet Sparrow",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=jetsparrow",
+        "url_image": "https://digimon.net/cimages/digimon/jetsparrow.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Enhancement",
+        "attribute": "Data",
+        "special_Move": "\u30fbAir Shooter\n\u30fbPlasma Blaster",
+        "profile": "Profile\nSparrowmon\u2019s Machspeed-Cruiser Mode gives this Digimon even more speed. It has tremendous propulsion, and can carry other Digimon on its back. Still, it needs considerable willpower, or it will be blown off by the extreme wind speed. The organ in its body known as a DigiCompressor provides propulsion by condensing inhaled air and firing it backward. This organ can be used for offense as well as flight, condensing air into plasma and shooting it out Jet Sparrow\u2019s muzzles in its ultimate special move, Plasma Blaster. It can also use Air Shooter to blast compressed air with a roar. Air Shooter fires a shotgun blast outward, reducing its effectiveness against long-range foes but letting it obliterate nearby enemies in an instant."
+    },
+    {
+        "name": "Shoutmon + Star Sword",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=starsword",
+        "url_image": "https://digimon.net/cimages/digimon/starsword.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Enhancement",
+        "attribute": "Data",
+        "special_Move": "\u30fbStar Blade",
+        "profile": "Profile\nShoutmon + Star Sword is the Combined Sword Mode of Starmon and a group of Pickmon. Its saw-like blade boasts an unyielding hardness, and it is capable of dealing major damage by biting into foes. Since the wounds the sword inflicts are rough and ragged, it takes longer than normal for opponents to recover from a blow from this fearsome weapon. What\u2019s more, because the combined bodies of the Pickmon can move freely, the sword is not only hard, it\u2019s also flexible, and can bend back like a willow branch to absorb a blow that might otherwise break it. The Star Sword is essentially the physical manifestation of the strong bond between its constituent Digimon."
+    },
+    {
+        "name": "Sistermon Blanc",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=sistermonblanc",
+        "url_image": "https://digimon.net/cimages/digimon/sistermonblanc.jpg",
+        "level": "Rookie",
+        "type": "Puppet",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbDivine Pierce\n\u30fbProtect Wave\n\u30fbGrand Sister Cruz",
+        "profile": "Profile\nYounger sister to Sistermon Noir, this girl form Digimon wears a white rabbit on its head. Unlike Noir, Sistermon Blanc is somewhat reserved, and is often seen hiding behind its older sister. Both siblings look after Huckmon, acting as its escort. Sistermon Blanc helps with Huckmon\u2019s training to faithfully carry out Gankoomon\u2019s request, but often has to keep its older sister\u2019s violent tendencies in check. It strives with all its might to act as Huckmon\u2019s chaperone, to repay Gankoomon for helping it and its sister. Its three-pronged lance Cross Barb\u00e9e can be used for attack as it stabs its foe with Divine Pierce, or for defense when it jams the butt end into the ground to generate Protect Wave. It can also execute the joint attack Grand Sister Cruz with its older sister."
+    },
+    {
+        "name": "Sistermon Blanc\uff08Awake.\uff09",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=sistermon_blanc_Awake",
+        "url_image": "https://digimon.net/cimages/digimon/sistermon_blanc_Awake.jpg",
+        "level": "Rookie",
+        "type": "Puppet",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbDivine Pierce (Awake)\n\u30fbProtect Wave (Awake)\n\u30fbGrand Sister Cruz (Awake)",
+        "profile": "Profile\nAnother form of Sistermon Blanc. A holy stigma appears in the center of the wimple on its head as it awakens. Its reserved personality does an about-face in this state, causing it to rush around the battlefield in a rampage as it surrenders to its base combat instincts. When it reverts back from its awakened state, Sistermon Blanc enters a gentle slumber that makes its previous violence seem inconceivable."
+    },
+    {
+        "name": "SnowAgumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=yukiagumon",
+        "url_image": "https://digimon.net/cimages/digimon/yukiagumon.jpg",
+        "level": "Rookie",
+        "type": "Dinosaur",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbLittle Blizzard",
+        "profile": "Profile\nA separate species of Agumon that lives in snow fields. SnowAgumon inherited Agumon\u2019s mischievousness, and it can be seen frolicking like a child during a fresh snowfall. Its body is the same color as the snow, so in battle it can sneak up on the enemy and attack. SnowAgumon uses its special move Little Blizzard to shoot a small snowstorm from its mouth."
+    },
+    {
+        "name": "SnowGoblimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=snowgoburimon",
+        "url_image": "https://digimon.net/cimages/digimon/snowgoburimon.jpg",
+        "level": "Rookie",
+        "type": "Demon",
+        "attribute": "Virus",
+        "special_Move": "\u30fbSnow Goblin Volt",
+        "profile": "Profile\nA Goblimon raised in cold, snowy countries. SnowGoblimon wears a warm hat and vest, so cold places are no problem. The skin on the soles of its feet is thick enough to allow it to traipse over snow without issue. SnowGoblimon uses its special move Snow Goblin Volt to hurl rock-filled snowballs at its foe with all the fervor of a demon."
+    },
+    {
+        "name": "Solarmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=solarmon",
+        "url_image": "https://digimon.net/cimages/digimon/solarmon.jpg",
+        "level": "Rookie",
+        "type": "Machine",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbShiny Ring",
+        "profile": "Profile\nA rare species of mechanical Machine Digimon.. Some researchers believe Solarmon to be a mutation of Hagurumon, but the truth of the matter remains a mystery. Because its DigiCore generates heat, its body is hot enough to cause burns. Solarmon uses its special move Shiny Ring to throw heat-emitting gears that scorch the enemy."
+    },
+    {
+        "name": "Soundbirdmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=soundbirdmon",
+        "url_image": "https://digimon.net/cimages/digimon/soundbirdmon.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Bird",
+        "attribute": "Virus",
+        "special_Move": "\u30fbGiga Scream\n\u30fbSound Finish",
+        "profile": "Profile\nA Bird Digimon with speakers built into its wings. Always alert for danger, Soundbirdmon is normally very quiet, but if it\u2019s ever approached by a Digimon it finds suspicious, it will shriek loudly to drive the intruder away.\nIts special moves include Giga Scream, where it cries out at full volume to blast foes with a shockwave, and Sound Finish, by which it paralyzes foes using ultrasonic waves.\n\n*Soundbirdmon was a winning submission in the Original Digimon Contest for Digimon Fusion."
+    },
+    {
+        "name": "Spadamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=spadamon",
+        "url_image": "https://digimon.net/cimages/digimon/spadamon.jpg",
+        "level": "Rookie",
+        "type": "Weapon",
+        "attribute": "Free",
+        "special_Move": "\u30fbSugar Pound\n\u30fbBlade Blender\n\u30fbAurora Blazer",
+        "profile": "Profile\nA Weapon Digimon that can transform its body into a weapon, and one of the fabled Legend-Arms said to be capable of either saving the world in the hands of an angel, or destroying it in the hands of a devil. Despite Spadamon\u2019s serious and hardworking personality, it can also succumb to pressure from time to time. Its combat strength is low, but it shows its true worth in weapon mode."
+    },
+    {
+        "name": "Sparrowmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=sparrowmon",
+        "url_image": "https://digimon.net/cimages/digimon/sparrowmon.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Bird",
+        "attribute": "Data",
+        "special_Move": "\u30fbCrash Boom\n\u30fbWing Edge\n\u30fbRandom Laser",
+        "profile": "Profile\nA Digimon specializing in dogfights, soaring soundlessly through the skies at high speeds. Speed is not Sparrowmon\u2019s only weapon, however. Its tight turning radius offers the maneuverability necessary to execute sudden turns without effort.\u3000Fundamentally moody and excitable, its flight style changes based on its mood. One can easily tell its mood or condition by watching it in flight. When Sparrowmon performs difficult aerial acrobatics without being asked, this is undeniable proof of its high spirits. The numerous feats it performs too quickly to be seen fully capitalize on this maneuverability. Wing Edge is only possible due to this advanced flight technique. Sparrowmon cuts enemies with its wings as it passes by with constantly changing trajectories at high speed. The twin pistols in its hands are named Zanahoria, siblings to Beelzemon\u2019s gun Berejena and made by the same gunsmith."
+    },
+    {
+        "name": "Starmons",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=starmons",
+        "url_image": "https://digimon.net/cimages/digimon/starmons.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Major",
+        "attribute": "Data",
+        "special_Move": "\u30fbMeteor Shower\n\u30fbWish Upon A Star",
+        "profile": "Profile\n\u201cStarmons\u201d is a unit comprised of a Starmon flanked by several Pickmon. The entire squad moves to the beat of the leader Starmon\u2019s drum. The leader\u2019s decisions are absolute, and the subordinate Pickmon move with perfect coordination in accordance to Starmon\u2019s commands. This harsh pecking order allows it to use group attacks like Meteor Shower and Wish Upon A Star, both of which require complex movements. Starmon has a cheerful and attention-seeking personality, and is an extraordinary optimist to boot. It never gets depressed, and even its rare moments of discouragement are filled with thoughts of how cool it looks when it\u2019s down. Other Digimon view Starmon as silly because of this trait, but it doesn\u2019t mind in the least."
+    },
+    {
+        "name": "Sunarizamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=sunarizamon",
+        "url_image": "https://digimon.net/cimages/digimon/sunarizamon.jpg",
+        "level": "Rookie",
+        "type": "Reptile",
+        "attribute": "Virus",
+        "special_Move": "\u30fbGrit Nail\n\u30fbSand Blast",
+        "profile": "Profile\nSunarizamon is a Reptile Digimon mainly found in desert areas that lives in groups and relies on camouflage. By regulating the volume of the sand that composes its body it is able to expand, contract, or transform its limbs and tail. This makes it nearly impossible to discern once it\u2019s blended into its desert environment. It\u2019s not unheard of for what might look like a patch of quicksand to turn out to be a group of Sunarizamon.\nSunarizamon can also defend itself from predators with its special moves. These include Grit Nail, by which it transforms the ends of its forelegs into claws to scratch at foes, and Sand Blast, where it grinds down an enemy\u2019s body by spitting out a stream of sand."
+    },
+    {
+        "name": "Swimmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=swimmon",
+        "url_image": "https://digimon.net/cimages/digimon/swimmon.jpg",
+        "level": "Rookie",
+        "type": "Tropical Fish",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbSlash Fin\n\u30fbBrine Pistol",
+        "profile": "Profile\nA Tropical Fish Digimon with a brightly colored body. Swimmon form groups that live in the warm water of coral reefs along the equator. This Digimon can use its large fins to fly across the surface of the water for short intervals. An elegant group of Swimmon skipping over the sea is counted among the three most scenic views of the Digital World. The scales covering its body have a trait that adapts their color to its surroundings. When gigantic Marine Digimon attack, it can use this as camouflage to escape danger. Swimmon uses its special move Slash Fin to cleave foes with its fins, or Brine Pistol to suck water into its gills before shooting it out from its mouth."
+    },
+    {
+        "name": "Syakomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=shakomon",
+        "url_image": "https://digimon.net/cimages/digimon/shakomon.jpg",
+        "level": "Rookie",
+        "type": "Crustacean",
+        "attribute": "Virus",
+        "special_Move": "\u30fbBlack Pearl Blast\n\u30fbWater Pressure",
+        "profile": "Profile\nA Digimon shaped like a clam and surrounded by a sturdy shell. Its highly developed shell protects what looks like an In-Training slime. This deceptive guy uses its face to lure enemies in before attacking them. Syakomon also boasts a high defense when its shell is closed, repelling small attacks with ease. Its special move Black Pearl Blast fires jadeite formed in its body at the enemy, and Water Pressure slams a super-high pressure water current at its foes."
+    },
+    {
+        "name": "Syakomon (X Antibody)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=shakomon_x",
+        "url_image": "https://digimon.net/cimages/digimon/shakomon_x.jpg",
+        "level": "Rookie",
+        "type": "Crustacean",
+        "attribute": "Virus",
+        "special_Move": "\u30fbBlack Pearl Blast",
+        "profile": "Profile\nA Digimon shaped like a clam and surrounded by a sturdy shell. Syakomon\u2019s highly-developed shell protects what looks like an In-Training slime. This cunning creature lures in enemies with its cute face before attacking them. Syakomon also boasts a high defense when its shell is closed, repelling trifling attacks with ease. It uses its special move Black Pearl Blast to fire jadeite formed in its body at the enemy.\n\n\u25a0Effects of the X Antibody on Syakomon\u2019s DigiCore:\nSyakomon (X Antibody)\u2019s bivalve shell is even more developed now. Contrary to the beautiful cherry-pink pattern on its shell, it will attack any enemy that approaches, and comes equipped with underwater jet spray ports that enable it to run away immediately. It has also become more cunning; even if a foe dodges its special move Black Pearl Blast, it can still surprise them with a shot from its hidden pistol called \u201cBlack Derringer.\u201d Syakomon (X Antibody) supposedly built it from junk parts scrapped together from the Net Ocean floor. It can fire two tiny, practically powerless shots of jadeite."
+    },
+    {
+        "name": "Tapirmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=bakumon",
+        "url_image": "https://digimon.net/cimages/digimon/bakumon.jpg",
+        "level": "Rookie",
+        "type": "Holy Beast",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbNightmare Syndrome",
+        "profile": "Profile\nTapirmon is a Digimon that resembles a \u201cbaku,\u201d a being in Japanese folklore that eats dreams. Believed to have been born from a medical computer that monitors brainwaves, Tapirmon seems to feed on human REM sleep data. It was also found to possess the ability to erase nightmares and viruses in the latest round of research. Since it can also return those nightmares and viruses to a benign state, it is believed to be a Holy Digimon. The Holy Ring it wears on one of its forelegs seems like it might be related both to its special abilities and its Holy nature. Tapirmon\u2019s special move is Nightmare Syndrome, whereby it releases the nightmares it\u2019s absorbed all at once to terrify its adversaries. This is the same special move as the one used by Digitamamon, a Perfect Digimon, but how the two might be related remains a mystery."
+    },
+    {
+        "name": "Tentomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tentomon",
+        "url_image": "https://digimon.net/cimages/digimon/tentomon.jpg",
+        "level": "Rookie",
+        "type": "Insectoid",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbSuper Shocker",
+        "profile": "Profile\nThe prototypical Insectoid Digimon, Tentomon has a hard carapace but a low level of aggression. Tentomon has one claw on each of its forelegs, and four claws on its middle and hind legs. Its middle legs in particular are highly dexterous, similar to human hands. Though other Insectoid Digimon of Tentomon\u2019s Digivolution level are consumed by a strong fighting spirit, Tentomon retains a love and appreciation for nature at this stage. Exhibiting a fondness for relaxation, Tentomon will stop to smell flowers and nap in the shade of trees. Even so, it does have the special move Super Shocker, which involves using its wings to shoot out amplified bolts of static electricity."
+    },
+    {
+        "name": "Terriermon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=terriermon",
+        "url_image": "https://digimon.net/cimages/digimon/terriermon.jpg",
+        "level": "Rookie",
+        "type": "Beast",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbTerrier Tornado\n\u30fbBlazing Fire\n\u30fbDouble Typhoon",
+        "profile": "Profile\nAn enigmatic Digimon with a massive horn growing from its head. While Terriermon\u2019s composition is enough to deem it a Beast Digimon, the form it takes after Digivolving is still unknown. Rumor has it that it is sometimes born with a twin. Terriermon\u2019s extreme cuteness and calm behavior do not give the impression that this Digimon is of the Combat Species. Still, the power it exhibits in battle belies its appearance. It uses its signature move Terrier Tornado to spin both of its ears like a propeller, creating a small tornado. With the special move Blazing Fire, it spits a shot of super-heated air. It is also said to have a powerful team attack called Double Typhoon that it unleashes together with its twin, Lopmon."
+    },
+    {
+        "name": "Terriermon (X Antibody)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=terriermon_x",
+        "url_image": "https://digimon.net/cimages/digimon/terriermon_x.jpg",
+        "level": "Rookie",
+        "type": "Beast",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbBlazing Fire\n\u30fbTerrier Tornado\n\u30fbFi-rost Typhoon",
+        "profile": "Profile\nAn enigmatic Digimon with a massive horn growing from its head. While Terriermon\u2019s composition is enough to deem it a Beast Digimon, the form it takes after Digivolving is still unknown. Rumor has it that it is sometimes born with a twin. Terriermon\u2019s extreme cuteness and calm behavior do not give the impression that this Digimon is of the Combat Species. Still, the power it exhibits in battle belies its appearance. It uses its signature move Terrier Tornado to spin both of its ears like a propeller, creating a small tornado. With the special move Blazing Fire, it spits a shot of super-heated air. It is also said to have a powerful team attack called Double Typhoon that it unleashes together with its twin, Lopmon.\n\n\u25a0Effects of the X Antibody on Terriermon\u2019s DigiCore:\nThe excellent sensory organs on Terriermon (X Antibody)\u2019s ears enable it to read the wind currents and fly. Furthermore, its Gen Emerald ear jewelry is linked to its twin Lopmon (X Antibody), and lets it know the other\u2019s position and condition. Deepening their connection lets them unleash Fi-rost Typhoon, a team attack mixing hot and cold air."
+    },
+    {
+        "name": "Terriermon Assistant",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=terriermon_assistant",
+        "url_image": "https://digimon.net/cimages/digimon/terriermon_assistant.jpg",
+        "level": "Rookie",
+        "type": "Beast",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbDai Bacchi G\u016b\n\u30fbTerrier Tornado",
+        "profile": "Profile\nA studious Terriermon who helps Agumon Expert. Terriermon Assistant loves nothing more than learning about the different types of Digimon and their ecologies, then passing on that knowledge to others. In addition to its signature move Terrier Tornado, it also has Dai Bacchi G\u016b, where it enlarges the pin on its chest and sends it flying."
+    },
+    {
+        "name": "Tinkermon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tinkermon",
+        "url_image": "https://digimon.net/cimages/digimon/tinkermon.jpg",
+        "level": "Rookie",
+        "type": "Pixie",
+        "attribute": "Virus",
+        "special_Move": "\u30fbSpeed Nightmare\n\u30fbNightmare Pandemic\n\u30fbFairy Powder\n\u30fbPetermon Syndrome",
+        "profile": "Profile\nA Pixie Digimon always found close by Petermon\u2019s side. Tinkermon does everything in its power to help Petermon create Never-Ever Land, a world for children. It bounces around happily in Petermon\u2019s presence, but may fly off somewhere in a huff if disregarded. If Petermon chases after it, Tinkermon will happily fawn all over Petermon once more. Its wings shine at different levels of brightness depending on how stressed it is, so keep an eye on that sheen if you want to ascertain its feelings. Tinkermon applies a paralytic nail polish to both its nails and its sharply pointed poison lance, which it uses to give those who look down on its small stature something to regret. It uses its special move Speed Nightmare to draw foes into a nightmare with the fast-acting hallucinogen on its poison lance. Nightmare Pandemic can either partially or fully paralyze the enemy, depending on how many fingers Tinkermon uses. With Fairy Powder, Tinkermon scatters a substance from its wings that turns the opponent into a baby, halving its abilities. Enemies turned into babies will accept Petermon\u2019s invitation, which leads them to the world of children, Never-Ever Land. This link between Petermon and Tinkermon is called \u201cPetermon Syndrome.\u201d"
+    },
+    {
+        "name": "ToyAgumon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=toyagumon",
+        "url_image": "https://digimon.net/cimages/digimon/toyagumon.jpg",
+        "level": "Rookie",
+        "type": "Puppet",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbPlastic Blaze",
+        "profile": "Profile\nAn unusual Digimon composed of blocks made from a special plastic. ToyAgumon is said to be an imitation of Agumon made by children playing on the Internet. It is extremely cute. Unlike the bold and fearless Agumon, ToyAgumon has a skittish side, and its blocks fly apart when it\u2019s startled. Despite this, it has a strong sense of justice that won\u2019t allow for any sort of wrongdoing. It also adores children, and loves to spend time interacting with them online. Its special move is Plastic Blaze, by which it shoots out a toy missile shaped like a flame. It\u2019s surprisingly powerful."
+    },
+    {
+        "name": "ToyAgumon (Black)",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=toyagumon_black",
+        "url_image": "https://digimon.net/cimages/digimon/toyagumon_black.jpg",
+        "level": "Rookie",
+        "type": "Puppet",
+        "attribute": "Virus",
+        "special_Move": "\u30fbPlastic Blaze",
+        "profile": "Profile\nA ToyAgumon tainted by darkness. ToyAgumon (Black) was infected by a computer virus on the Network and turned into a toy that bullies children. Its special move is Plastic Blaze, by which it shoots out a tiny missile shaped like a flame."
+    },
+    {
+        "name": "Tsukaimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=tukaimon",
+        "url_image": "https://digimon.net/cimages/digimon/tukaimon.jpg",
+        "level": "Rookie",
+        "type": "Mammal",
+        "attribute": "Virus",
+        "special_Move": "\u30fbBad Message",
+        "profile": "Profile\nTsukaimon may look like Patamon, but its personality could hardly be more different. A contrarian by nature, it acts as a familiar to Devimon and others. Tsukaimon is quick to anger, and will try to settle things with a fight immediately. With its special move Bad Message, it whispers slander full of negative energy to bring the enemy to tears."
+    },
+    {
+        "name": "Veemon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=v-mon",
+        "url_image": "https://digimon.net/cimages/digimon/v-mon.jpg",
+        "level": "Rookie",
+        "type": "Mini Dragon",
+        "attribute": "Free",
+        "special_Move": "\u30fbBoom Boom Punch\n\u30fbVeemon Headbutt",
+        "profile": "Profile\nVeemon is a new type of Digimon only recently discovered. It is a surviving member of a species that once thrived in the dawn of the Digital World. This allows it to use Digi-Eggs to perform a type of pseudo-Digivolution known as Armor Digivolution. Of all its peers, Veemon is among the best Combat Species. It possesses a hidden power, and uses Armor Digivolution to bring out its explosive abilities. Though a troublemaker and a prankster by nature, Veemon also has a strong sense of justice. Veemon uses its signature move Boom Boom Punch to spin both arms and strike its opponent. It uses its special move Veemon Headbutt to knock out foes with a powerful headbutt."
+    },
+    {
+        "name": "Vemmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=bemmon",
+        "url_image": "https://digimon.net/cimages/digimon/bemmon.jpg",
+        "level": "Rookie",
+        "type": "Unidentified",
+        "attribute": "Unknown",
+        "special_Move": "\u30fbMesser Claw\n\u30fbFusionize",
+        "profile": "Profile\nAn artificial Digimon that someone created through the process of experimentation. Programmed only to eat and get stronger, it uses Fusionize after defeating an enemy to consume it.\nIts special move is Messer Claw, wherein it slashes enemies with its razor claws."
+    },
+    {
+        "name": "Vorvomon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=vorvomon",
+        "url_image": "https://digimon.net/cimages/digimon/vorvomon.jpg",
+        "level": "Rookie",
+        "type": "Rock Dragon",
+        "attribute": "Virus",
+        "special_Move": "\u30fbPetit Flame",
+        "profile": "Profile\nA Digimon composed of hard, hot ore. Vorvomon\u2019s two wings enable it to fly for a few moments, but it will tire almost immediately. It is quite passionate, and the heat of its horns and claws rises along with its level of excitement.\n\nIt uses its special move Petit Flame to spit a small yet extremely hot flame from its mouth."
+    },
+    {
+        "name": "Wormmon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=wormmon",
+        "url_image": "https://digimon.net/cimages/digimon/wormmon.jpg",
+        "level": "Rookie",
+        "type": "Larva",
+        "attribute": "Free",
+        "special_Move": "\u30fbSticky Net\n\u30fbSilk Thread",
+        "profile": "Profile\nA Larva Digimon with a timid, cowardly personality. Wormmon is a descendant of the same ancient species as Veemon, so it can perform a special Armor Digivolution. Exceedingly weak on its own, Wormmon stands little chance against larger Digimon. But with the power of the Digi-Eggs, it can Armor Digivolve and display incredible power. Like a larva maturing into an adult, Wormmon will one day Digivolve into a Champion of great power. This Digimon is the very embodiment of future potential. It uses its special move Sticky Net to shoot viscous webs that blind the enemy, or Silk Thread to shoot a thin thread as sharp and pointy as a needle tip."
+    },
+    {
+        "name": "Zenimon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=zenimon",
+        "url_image": "https://digimon.net/cimages/digimon/zenimon.jpg",
+        "level": "Rookie\n(Xros Wars)",
+        "type": "Mutant",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbComet Launcher\n\u30fbZeninage",
+        "profile": "Profile\nZenimon is a mech-like Digimon resembling a 5-yen coin that lives inside Ganemon\u2019s suitcase. This Digimon quietly carries out Ganemon\u2019s money-collecting missions, aided in part by its ability to produce a special pulse that attracts money, which it uses to great effect. However, this apparently also makes it a target of Digimon who would make use of this pulse. Zenimon\u2019s special moves include Comet Launcher, where it fires rice bullets from its arms, and Zeninage, where it throws other Zenimon to crash into foes.\n\nNote: Zenimon was a winning submission in the Original Digimon Contest for Digimon Fusion."
+    },
+    {
+        "name": "Zubamon",
+        "url": "https://digimon.net/reference_en/detail.php?directory_name=zubamon",
+        "url_image": "https://digimon.net/cimages/digimon/zubamon.jpg",
+        "level": "Rookie",
+        "type": "Weapon",
+        "attribute": "Vaccine",
+        "special_Move": "\u30fbTwenty Dive",
+        "profile": "Profile\nZubamon is one of the Legend-Arms that can transform its body into a weapon. The fabled Legend-Arms are said to be capable of either saving the world in the hands of an angel, or destroying it in the hands of a devil. Zubamon possesses the data of the Twentiest, and often shouts \u201cI am the Twentiest!\u201d without knowing what that means. It dislikes anything warped or twisted, and is in constant pursuit of its ideal of sharpness. In battle and in jest, it\u2019s always trying to look sharp, and days when it succeeds put it in a good mood. Though it has its Twenty Dive attack that involves rushing headlong at an enemy, Zubamon\u2019s true strength lies in its weapon form."
     }
 ]
