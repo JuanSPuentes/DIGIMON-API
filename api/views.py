@@ -6,7 +6,10 @@ from .serializers import (DigimonSerializer, TrainingISerializer, TrainingIISeri
                           TypeDSerializer, SpecialMoveSerializer)
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
-from django.shortcuts import get_list_or_404, get_object_or_404
+from .mixins import MultipleFieldLookupMixin, MultipleFieldLookupMixin_2
+from django.utils.decorators import method_decorator
+from drf_yasg.utils import swagger_auto_schema
+from drf_yasg import openapi
 
 
 class StandardResultsSetPagination(PageNumberPagination):
@@ -16,39 +19,19 @@ class StandardResultsSetPagination(PageNumberPagination):
 
 
 
-class DigimonViewSet(viewsets.ModelViewSet):
+class DigimonViewSet(MultipleFieldLookupMixin,viewsets.ModelViewSet):
     queryset = models.Digimons.objects.all().order_by('name')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = DigimonSerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
-
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
-
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
-
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
+    lookup_fields = ['name', 'id']
 
     
-    def retrieve(self, request, *args, **kwargs):
+    def retrieve(self, request, *args, **kwargs):   
+        """
+        or you can use /{name}
+        Example ---> /Alphamon   this can list multiple objects
+        """
         instance = self.get_object()
         data = []
         if type(instance) == list:
@@ -66,643 +49,82 @@ class DigimonViewSet(viewsets.ModelViewSet):
 
 
 
-class TrainingIViewSet(viewsets.ModelViewSet):
+class TrainingIViewSet(MultipleFieldLookupMixin_2,viewsets.ModelViewSet):
     queryset = models.TrainingI.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = TrainingISerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
+    lookup_fields = ['name', 'id']
 
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
 
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
 
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
-
-class TrainingIIViewSet(viewsets.ModelViewSet):
+class TrainingIIViewSet(MultipleFieldLookupMixin_2, viewsets.ModelViewSet):
     queryset = models.TrainingII.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = TrainingIISerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
+    lookup_fields = ['name', 'id']
 
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
 
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
 
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
-
-class RookieViewSet(viewsets.ModelViewSet):
+class RookieViewSet(MultipleFieldLookupMixin_2, viewsets.ModelViewSet):
     queryset = models.Rookie.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = RookieSerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
+    lookup_fields = ['name', 'id']
 
-  
 
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
-
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
-
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
-
-class ChampionViewSet(viewsets.ModelViewSet):
+class ChampionViewSet(MultipleFieldLookupMixin_2, viewsets.ModelViewSet):
     queryset = models.Champion.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = ChampionSerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
+    lookup_fields = ['name', 'id']
 
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
 
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
 
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
-
-class UltimateViewSet(viewsets.ModelViewSet):
+class UltimateViewSet(MultipleFieldLookupMixin_2, viewsets.ModelViewSet):
     queryset = models.Ultimate.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = UltimateSerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
+    lookup_fields = ['name', 'id']
 
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
 
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
 
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
-
-class MegaViewSet(viewsets.ModelViewSet):
+class MegaViewSet(MultipleFieldLookupMixin_2, viewsets.ModelViewSet):
     queryset = models.Mega.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = MegaSerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
+    lookup_fields = ['name', 'id']
 
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
 
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
 
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
-
-class ArmorViewSet(viewsets.ModelViewSet):
+class ArmorViewSet(MultipleFieldLookupMixin_2, viewsets.ModelViewSet):
     queryset = models.Armor.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = ArmorSerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
+    lookup_fields = ['name', 'id']
 
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
 
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
 
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
-
-class HybridViewSet(viewsets.ModelViewSet):
+class HybridViewSet(MultipleFieldLookupMixin_2, viewsets.ModelViewSet):
     queryset = models.Hybrid.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = HybridSerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
+    lookup_fields = ['name', 'id']
 
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
 
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
-
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
-
-class UnknownViewSet(viewsets.ModelViewSet):
+class UnknownViewSet(MultipleFieldLookupMixin_2, viewsets.ModelViewSet):
     queryset = models.Unknown.objects.all().order_by('id')
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = UnknownSerializer
     pagination_class = StandardResultsSetPagination
-    lookup_field = 'name'
-
-    def get_object(self):
-        queryset = self.filter_queryset(self.get_queryset())
-
-        # Perform the lookup filtering.
-        lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
-
-        assert lookup_url_kwarg in self.kwargs, (
-            'Expected view %s to be called with a URL keyword argument '
-            'named "%s". Fix your URL conf, or set the `.lookup_field` '
-            'attribute on the view correctly.' %
-            (self.__class__.__name__, lookup_url_kwarg)
-        )
-
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
-        try:
-            obj = get_object_or_404(queryset, id = filter_kwargs['name'])     
-        except:
-            obj = get_list_or_404(queryset, name__icontains = filter_kwargs['name'])
-
-        # May raise a permission denied
-        self.check_object_permissions(self.request, obj)
-        return obj
-
-    def json_create(self, values = None):
-        json_ = {}
-        json_['id'] = values.id
-        json_['name'] = values.name
-        json_['url'] = values.url
-        json_['urlImage'] = values.urlImage
-        json_['level'] =  [{'id':values.level.id,'level':values.level.level}]
-        json_['typeD'] = [{'id':values.typeD.id,'type':values.typeD.typeD}]
-        json_['attribute'] = [{'id':values.attribute.id,'attribute':values.attribute.attribute}]
-        json_['specialMove'] = [{'id':j.id, 'special move':j.specialMove}  for j in values.specialMove.all()]
-        json_['profile'] = values.profile
-        json_['xAntibody'] = values.xAntibody
-        return json_
-
-    def retrieve(self, request, *args, **kwargs):
-        instance = self.get_object()
-        data = []
-        if type(instance) == list:
-            for i in instance:
-                json_ = self.json_create(i)
-                data.append(json_)
-        else:
-            json_ = self.json_create(instance)
-            data.append(json_)
-        return Response(data)
-
-    def list(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        data = []
-        page = self.paginate_queryset(queryset)
-        if page is not None:
-            serializer = self.get_serializer(page, many=True)
-            for i in page:
-                json_ = self.json_create(i)
-                data.append(json_)
-            return self.get_paginated_response(data)
-
-        serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
+    lookup_fields = ['name', 'id']
 
 
 class AttributeViewSet(viewsets.ModelViewSet):
