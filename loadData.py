@@ -7,7 +7,7 @@ django.setup()
 import json
 from api import models
 
-json_index = {'training_I':models.TrainingI, 'training_II': models.TrainingII, 
+json_index = {'training_i':models.TrainingI, 'training_ii': models.TrainingII, 
               'rookie':models.Rookie, 'champion':models.Champion, 
               'ultimate':models.Ultimate, 'mega':models.Mega, 'armor':models.Armor, 
               'hybrid': models.Hybrid, 'xros_wars':models.XrosWars, 'unknown':models.Unknown}
@@ -37,12 +37,12 @@ def SaveDataDigi(model=None, digi=None, type_d=None, level_=None, atribute_=None
     for b in specialMove_:
         object_.specialMove.add(b)
 
+    return object_
 
 def main():
     attribute = []
     level = []
     typeD = []
-    specialMove = []
     models.Attribute.objects.all().delete()
     models.Level.objects.all().delete()
     models.TypeD.objects.all().delete()
@@ -61,12 +61,13 @@ def main():
         with open('json/{}'.format(i+".json")) as file:
             data = json.load(file)
 
-        #Save data in models
+        #Guardando la data en los modelos
         for digi in data:
-            #Atribute data
+            #Attribute data
             if digi['attribute'] == '':
                digi['attribute'] = 'NA'
-
+            #Verifica si el attribute ya esta guardado en el modelo y
+            # guarda el objeto en una lista
             if digi['attribute'] not in attribute:
                 attribute.append(digi['attribute'])
                 atribute_ = models.Attribute.objects.create(attribute = digi['attribute'])
@@ -77,48 +78,64 @@ def main():
             #Level data
             if digi['level'] == '':
                digi['level'] = 'NA'
-
+            # Verifica si el level ya esta guardados en la db
+            # Y extrae el objeto y lo guarda en una lista
             if digi['level'] not in level:
                 level.append(digi['level'])
                 level_ = models.Level.objects.create(level = digi['level'])
             else:
-            
                 level_ = models.Level.objects.get(level = digi['level'])
             
-                
-
             #Type data
             if digi['type'] == '':
                digi['type'] = 'NA'
-
+            # Verifica si el Type ya esta guardado en la db
+            # Y extrae el objeto y lo guarda en una lista
             if digi['type'] not in typeD:
                 typeD.append(digi['type'])
                 type_d = models.TypeD.objects.create(typeD = digi['type'])
             else:
-                
                 type_d = models.TypeD.objects.get(typeD = digi['type'])
                 
 
-            #special_Move data
+            # special_Move data
+            # divide la lista de los movimientos
             if digi['special_Move'] == '' or digi['special_Move'] == '\u30fb':
-               digi['special_Move'] = '\u30fbNA'
-
+               digi['special_Move'] = '\u30fb'
+            # Elimina los campos vacios
             specMove = digi['special_Move']
             a = specMove.split('\u30fb')
             a.remove('')
-            specialMove = models.SpecialMove.objects.all()
+            if '' in a:
+               a[0] = 'NA'
+            # Busca '\n' y si lo encuentra lo elimina
+            for y,z in enumerate(a):
+                if z.find('\n') != -1:
+                    a[y] = z[:-2]
+
             specialMove_ = []
+            """Consulta en la tabla SpecialMove el movimiento especial
+            Verifica si el query esta vacio para guardarlo en la db y en una lista
+            Si no esta en la db crea el objeto y lo guarda en una lista"""
             for spc in a:
-                if spc not in specialMove:
-                    specialMove_.append(models.SpecialMove.objects.create(specialMove = spc))
-                else:
-                    print('entro al get')
-                    specialMove_.append(models.SpecialMove.objects.get(specialMove = spc))
+                specialMove = models.SpecialMove.objects.filter(specialMove = spc)  
+                if specialMove.exists():specialMove_.append(models.SpecialMove.objects.get(specialMove = spc))
+                else:specialMove_.append(models.SpecialMove.objects.create(specialMove = spc))
 
-            """Funcion que guarda la data"""
-            SaveDataDigi(model=json_index[i], digi=digi, type_d=type_d, level_=level_, atribute_=atribute_, specialMove_=specialMove_)
+            # Elimina del profile 'Profile\n' fragmento inecesario en el texto
+            digi.update({'profile': digi['profile'].replace('Profile\n', '')})
 
-            models.Digimons.objects.create(name = digi['name'], level = level_)
+            """Funcion que guarda la data y se recupera el objeto guardado"""
+            digi_object = SaveDataDigi(model=json_index[i], digi=digi, type_d=type_d, level_=level_, atribute_=atribute_, specialMove_=specialMove_)
+            
+            """ Creacion del link para ver el detalle del Digimon
+                i : nombre del nivel del digimon
+                digi_object: objeto guardado en la db
+                digi_object.id: id del objeto guardado en la db    
+            """
+            href = 'http://127.0.0.1:8000/api/{}/{}/'.format(i, digi_object.id)
+            models.Digimons.objects.create(name = digi['name'], href = href, level = level_.level)
+            
 
 
 if __name__ == '__main__':
