@@ -60,9 +60,9 @@ def main():
 
     current_directory = os.getcwd()
     print(current_directory)
-    contents = os.listdir(current_directory)
+    contents = os.listdir('/opt/render/project/src/json/')
     print(contents)
-    
+
     for i in json_index:
         with open('/opt/render/project/src/json/{}'.format(i+".json"),'r',) as file:
             data = json.load(file)
