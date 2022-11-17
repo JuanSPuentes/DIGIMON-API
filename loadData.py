@@ -57,8 +57,11 @@ def main():
     models.Hybrid.objects.all().delete()
     models.Digimons.objects.all().delete()
 
+
+    current_directory = os.getcwd()
+
     for i in json_index:
-        with open('json/{}'.format(i+".json")) as file:
+        with open(r'{}/json/{}'.format(current_directory,i+".json"),'r',) as file:
             data = json.load(file)
 
         #Guardando la data en los modelos
