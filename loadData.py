@@ -133,7 +133,7 @@ def main():
                 digi_object: objeto guardado en la db
                 digi_object.id: id del objeto guardado en la db    
             """
-            href = 'http://digimon-api.onrender.com/routers/api/{}/{}/'.format(i, digi_object.id)
+            href = 'http://digimon-api-drf.onrender.com/routers/api/{}/{}/'.format(i, digi_object.id)
             models.Digimons.objects.create(name = digi['name'], href = href, level = level_.level)
             
 
