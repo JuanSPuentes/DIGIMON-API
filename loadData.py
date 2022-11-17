@@ -59,9 +59,9 @@ def main():
 
 
     current_directory = os.getcwd()
-
+    print(current_directory)
     for i in json_index:
-        with open(r'{}/json/{}'.format(current_directory,i+".json"),'r',) as file:
+        with open('/opt/render/project/src/json/{}'.format(i+".json"),'r',) as file:
             data = json.load(file)
 
         #Guardando la data en los modelos
