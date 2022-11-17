@@ -58,13 +58,9 @@ def main():
     models.Digimons.objects.all().delete()
 
 
-    current_directory = os.getcwd()
-    print(current_directory)
-    contents = os.listdir('/opt/render/project/src/json/')
-    print(contents)
 
     for i in json_index:
-        with open('/opt/render/project/src/json/{}'.format(i+".json"),'r',) as file:
+        with open('/opt/render/project/src/json/{}'.format(i+".json")) as file:
             data = json.load(file)
 
         #Guardando la data en los modelos
