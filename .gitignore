@@ -147,3 +147,5 @@ lib/
 
 Scraping.py
 chromedriver.exe
+dockerfile
+docker-compose.yml
