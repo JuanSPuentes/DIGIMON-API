@@ -10,7 +10,7 @@ schema_view = get_schema_view(
       default_version='v1',
       description="Api que contiene la data la wiki de digimon.net pagina oficial de digimon",
       terms_of_service="Digimon y otros medios relacionados con la franquicia son marcas registradas de Bandai, esta api es solo para el ambito educativo",
-      contact=openapi.Contact(email="puentesjs903@gmail.com"),
+      contact=openapi.Contact(url="https://www.linkedin.com/in/juan-sebastian-puentes-coronado/"),
       license=openapi.License(name='http://creativecommons.org/licenses/by/4.0/'),
    ),
    public=True,
